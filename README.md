@@ -1,13 +1,9 @@
-![](https://raw.githubusercontent.com/aljoxo/Fahluaan/main/images/Banner.webp)
+![](Header)
 
 <p align="center">
-  [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/87820">Nexus</a> |
-  <a href="https://github.com/aljoxo/Fahluaan/blob/main/README.md">Installation</a> |
-  <a href="https://github.com/aljoxo/Fahluaan/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
-  <a href="https://github.com/aljoxo/Fahluaan/blob/main/CHANGELOG.md">Changelog</a> |
+  [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
+  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="LINK">Modlist</a> |
-  <a href="https://github.com/aljoxo/Fahluaan/blob/main/Documentation/FAQ.md">FAQ</a> |
-  <a href="https://github.com/aljoxo/Fahluaan/blob/main/Documentation/NPCs.md">NPCs</a> |
   <a href="https://ko-fi.com/aljoxo">Ko-fi</a> ]
 </p>
 
@@ -39,12 +35,9 @@
     - [Antivirus Exceptions](#antivirus-exceptions)
     - [Widescreen Fixes](#widescreen-fixes)
     - [Controller and Gamepad Setup](#controller-and-gamepad-setup)
-    - [Removing Nudity from the list](#removing-nudity-from-the-list)
-    - [Documentation](#documentation)
   - [Playing the List](#playing-the-list)
     - [Starting the Game](#starting-the-game)
     - [In-Game MCM options](#in-game-mcm-options)
-    - [Note For Content Creators](#note-for-content-creators)
   - [Updating the modlist](#updating-the-modlist)
   - [Tweaking the Game Settings](#tweaking-the-game-settings)
     - [BethINI](#bethini)
@@ -54,36 +47,35 @@
 
 ## Introduction
 
-Fahluaan is a comprehensive modlist that focuses on bringing the combat and gameplay of Skyrim to the modern age, without compromising on the original lore and vision of the Elder Scrolls Series. Meticulously balanced and full of handpicked content, new gear, spells, and quest mods that are designed to integrate seamlessly into the game.
+Ascensio is a comprehensive visual overhaul, providing minimal gameplay tweaks in favor of an expansive graphical package.
 
 The full modlist can be viewed [here](LINK).
 
 You can find a summary of all relevant changes on the [Gameplay Guide](LINK).
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][https://creativecommons.org/licenses/by-nc-sa/4.0/].
 
 ### System Requirements
 
 >  Please note these specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received.
 
 
-| Spec Category | My Specs (1440p) | Recommended (1080p) |
+| Spec Category | My Specs (1080p) | Recommended (1080p) |
 |     :---:    |     :---:     |     :---:     
-| **CPU**   | R7 5800X |  R7 3700x / i5 10600k |
-| **Video Card**    | 3080 | 3060 Ti / 2070 / 6700 XT |
-| **Ram**    | 32gb (2x16) | 16gb (2x16) |
-| **Storage**    | 970 EVO NVMe | SATA SSD |
+| **CPU**   | ??? |  ??? |
+| **Video Card**    | ??? | ??? |
+| **Ram**    | ??? | ??? |
+| **Storage**    | ??? | ??? |
 
-Downloads: ~160 GB
-Install: ~230 GB
-Temp Files: ~30 GB (on OS drive)
-**TOTAL:** ~390 GB
+Downloads: ??? GB
+Install: ??? GB
+**TOTAL:** ??? GB
 
- > Wabbajack requires around 30 GB of space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
+ > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
 ## Installation
 
-Installing Fahluaan is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
+Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
 
 ### Pre-Installation
 
@@ -98,7 +90,7 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Pagefile and crash prevention
 
-Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Fahluaan's size and number of files required to be handled for the list, this step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
+Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
 
  To set up your pagefile:
  1. Press **Win Key + R**
@@ -109,8 +101,8 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
  6. Uncheck *Automatically manage* if it is checked
  7. Select your disk drive, ideally your fastest solid state drive
  8. Click the **Custom size:** button
- 9. In the box next to **Initial Size (MB)** type `40960`
- 10. In the box next to **Maximum Size (MB)** type `40960`
+ 9. In the box next to **Initial Size (MB)** type `20480`
+ 10. In the box next to **Maximum Size (MB)** type `20480`
  11. Click the *Set* button
  12. Click *OK*
  13. Click *Apply*
@@ -118,7 +110,8 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
  15. Restart your computer in order for your new pagefile to take effect.
 
 #### Setting Shader Cache Size
- Additionally, if you have an NVIDIA GeForce Graphics Card, please do the following: 
+ Additionally, if you have an NVIDIA GeForce Graphics Card, please do the following:
+ This step is **optional** but can provide some extra stability. 
 
  1. Right-click on your desktop and select **NVIDIA Control Panel**
  2. Navigate and click on **Manage 3D settings**. It is the 2nd one to the top.
@@ -159,7 +152,7 @@ The English Steam version of Skyrim is the only supported version. I understand 
 
 #### Installing Wabbajack
 
-Once you have completed pre-installation, download the [latest version of Wabbajack]((https://github.com/wabbajack-tools/wabbajack/releases)) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
+Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
 
 #### Downloading and Installing Fahluaan
 
@@ -175,20 +168,6 @@ Downloading and installing Fahluaan can take a while depending on your internet 
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
-- [Eskyrim Spear](https://mega.nz/folder/jQdSTTiS#cvXiRP6SSHNm5-RERVrhQw)
-- [Tullfx Bloodstorm](https://drive.google.com/file/d/1wu9hwP_7QJC9tWxLwR8QU41txry5u9vA)
-
-Sometimes the SkyrimGuild website also runs into issues so I suggest downloading these in advanced as well.
-- [ADXP 1.6.0.5](https://www.skyrim-guild.com/s/Attack-MCODXP-v1605.zip)
-- [DMCO 0.9.8](https://www.skyrim-guild.com/s/DMCO_098.zip)
-- [Impactful Blocking](https://www.skyrim-guild.com/s/Impactful-Blocking-14.rar)
-- [MikeNike Elder Souls](https://www.skyrim-guild.com/s/Elder-Souls-The-Collection-v09-SE-AMR.7z)
-- [Creatures DXP](https://www.skyrim-guild.com/s/SG-Creatures-Preview-v022.zip)
-
-Patreon downloads incase they give problems.
-- [Eskyrim Fomod v1.1](https://www.patreon.com/file?h=65532242&i=10998255)
-- [Eskyrim Fomod v1.2](https://www.patreon.com/file?h=68233071&i=11449877)
-- [Eskyrim Sprint](https://www.patreon.com/file?h=68233071&i=11449874)
 
 ### Problems with installation
 
@@ -218,7 +197,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Game Folder
 
-Fahluaan uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game`. You don’t need to copy anything at all.
+Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game`. You don’t need to copy anything at all.
 
 ### Antivirus Exceptions
 
@@ -240,72 +219,26 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Widescreen Fixes
 
-Fahluaan offers some mods to provide Ultrawide and Widescreen Support. Under the **Ultrawide Patches** Separator in MO2 you will find some mods that you will want to activate if you are playing on Ultrawide or Widescreen resolutions (21:9 or 32:9).
-
-**Some additional tweaking for visual consistency:**
- 1. Search for **Compass Navigation Overhaul** in the left pane of MO2 and open the .ini file, `CompassNavigationOverhaul.ini` and edit the following line(s):  
-    a. PositionX=-0.127  
-![](IMG)
- 2. Once in game, navigate to the *TrueHUD* MCM Menu, and change the following values:
- ![](IMG)
- ![](IMG)
+To Be Written
 
 ### Controller and Gamepad Setup
 
-Fahluaan offers some mods to provide support for individuals who wish to play with a controller or gamepad. In order to set it up correctly please follow these steps:
- 1. Under the **Gamepad Support** Separator in MO2, activate the mods under it.
- 2. Go to `(Path To Modlist)\Stock Game` folder and delete *ControlMap_Custom.txt*
-   a. Alternatively you can reset your controlmap in-game.
- 3. Refer to the [controlmap](LINK) and set up your binds in the in-game Mod Configuration Menus as some of these can not be set in advanced.
-
-### Removing Nudity from the list
-
-Fahluaan offers the ability for the user to remove nudity and some NSFW elements from the list. In order to set it up correctly please follow these steps:
- 1. Under the **Non-Nude** Separator in MO2, activate the mods under it.
- 2. You're done. It's that easy.
- > Please note that there is some clipping on some larger bodyslide presets with the underwear that is added by this addition. I will make 0 attempts to fix these and please do not bother the original mod author about it.
+To Be Written
 
 ## Playing the List
 
 ### Starting the Game
- - Head over to the installation folder and locate an executable named ModOrganizer.exe and launch it.
- - **(Optional)** For those of you with arachnophobia, the list includes a mod called *bingus hates spiders.esp*, this is my personal patch that removes spiders from the leveled list and replaces spiders with other creatures within the list. It also has a few other tweaks to make it a bit more in depth than something like *Insects begone*.
 
- - Launch the "Fahluaan" Executable in MO2
- - Fahluaan comes with a start save by default, so when you load into the main menu, choose "Continue".
- - Fahluaan uses [Skyrim Unbound](https://www.nexusmods.com/skyrimspecialedition/mods/27962) as our alternate start mod.
-    - In order to start the character creation process hit **Enter**.
-       - Note: If you do not press enter then you will simply load into the start cell unable to move or do anything.
-    - Once you are finished with chargen, feel free to open up the **Skyrim Unbound** MCM and customize your Standing Stone, whether or not you're a vampire/werewolf, equipment, spells, and starting location. Do note that after changing your loadout and starting equipment via the MCM, you must hit **Enter** again and select the **Swap Gear** option for these changes to take effect.
-    - Once you are finished choosing your options for the Alternate Start you desire, hit **Enter** again and choose **Continue**.
- - For **advanced users**, if you are starting a NEW GAME instead of pressing CONTINUE from the main menu, do the following steps:
-     1. Wait about **2 to 3 minutes** for every mod and script to initialize.
-     2. Open the Mod Configuration Menu at the System Page, and navigate to the **MCM Recorder**.
-     3. Run the Fahluaan Start Save MCM Recorder.    
-     - There is no reason to start a NEW GAME over using the included start save, unless you need to do so for the sake of modifications made to the list. Failing to run the MCM Recorder will leave out many customizations made and will likely give you a very different experience to what is intended.
- - Read over the Control map for your preferred input.
-![](IMG)
-![](IMG)
+To Be Written
 
 ### In-Game MCM options
 
- - **Skyrim Unbound**: Choose your Standing Stone, starting location, starting equipment, starting wealth, etc. By default, the player is set to become Dragonborn, so if you do not want that for some reason, turn it off. **I highly suggest against choosing to not become Dragonborn, as it will lock you out of a lot of content within the list.**
-
-### Note about Survival Mode
-
-Survival Mode is **NOT** enabled by default, to do so you must do it in the in-game settings menu accessed via the System Page.
-Fast Travel is **disabled** by default when Survival Mode is **enabled**. If you would like to have Fast Travel active while playing with Survival Mode, navigate to the `SurvivalModeImproved.ini` located at `[Path to Modlist]\mods\Survival Mode Improved - SKSE\SKSE\Plugins` and change the line `bDisableFastTravel=1` to `bDisableFastTravel=0`.
-
-### Note For Content Creators
-
-[Yet Another Music Merge](https://www.nexusmods.com/skyrimspecialedition/mods/48725) includes some songs from Nir Shor which are not allowed to be played on Twitch or YouTube due to DMCA rules. The modpage has a [Content Creator Version](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=277975&nmm=1&game_id=1704) which I suggest you download if you wish to play the list on stream or upload videos about it in order to avoid copyright strikes. If you install this patch, make sure to disable the `Yet Another Music Merge - Chapter II Patch` in the left pane of MO2. This should be safe to do mid game without any issues.
+To Be Written
 
 ## Updating the modlist
 
-Before updating, please check the [changelog](LINK) and back up your saves. You may need to start a new game after certain updates.
+Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md) and back up your saves. You may need to start a new game after certain updates.
 Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
-
-**ALWAYS** back up saves before an update. Because of the method Wabbajack uses to include the start save, any save within the profile will be wiped. 
 
 *Please make sure you back up your saves if you plan on continuing a playthrough across a **save safe** update.*
 
@@ -315,32 +248,32 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Fahluaan - Default Profile`.
 
-`**Skyrim.ini**
-[Display]
-fSAOIntensity=15
-fSAOExpFactor=0.220
-fSAORadius=800.0000
-fSAOBias=0.5000
-fSAOValueDiffFactor=0.3000`
+`**Skyrim.ini**  
+[Display]  
+fSAOIntensity=15  
+fSAOExpFactor=0.220  
+fSAORadius=800.0000  
+fSAOBias=0.5000  
+fSAOValueDiffFactor=0.3000`  
 
 Some additional edits can be made in the **ENBSeries.ini** found in the `Stock Game` folder (`[Path to Modlist]\Stock Game`)
 
-`**ENBSeries.ini**
-[EFFECT]
-EnableDepthOfField=false
-EnableAmbientOcclusion=false
-EnableDetailedShadow=false`
+`**ENBSeries.ini**  
+[EFFECT]  
+EnableDepthOfField=false  
+EnableAmbientOcclusion=false  
+EnableDetailedShadow=false`  
 
-`[SSAO_GAME]
-AOAmount=1.5
-AOAmountInterior=0.5
-ColorfulMix=true`
+`[SSAO_GAME]  
+AOAmount=1.5  
+AOAmountInterior=0.5  
+ColorfulMix=true`  
 
-`[COMPLEXFIRELIGHTS]
-EnableBigRange=false`
+`[COMPLEXFIRELIGHTS]  
+EnableBigRange=false`  
 
-`[COMPLEXPARTICLELIGHTS]
-EnableBigRange=false`
+`[COMPLEXPARTICLELIGHTS]  
+EnableBigRange=false`  
 
 #### BethINI
 
@@ -348,21 +281,20 @@ Before running BethINI please make sure that your paths are correctly set. I als
 
  - **Game**: `Skyrim Special Edition`
  - **Game Path**: `[Path to Modlist]\Stock Game`
-   - example: `F:\Fahluaan\Stock Game`
+   - example: `F:\Ascensio\Stock Game`
  - **Mod Organizer**: `[Path to Modlist]` 
-   - example: `F:\Fahluaan`
- - **INI Path**: `Mod Organizer > Fahluaan - Default Profile`
+   - example: `F:\Ascensio`
+ - **INI Path**: `Mod Organizer > Ascensio - Default Profile`
 
 To get some more FPS, tweak the following value in the detail section in BethINI.
 
 - `Shadow Resolution`: 2048
 - `Ambient Occlusion`: Either use this or the ENB version. The ENB version is more intensive. Do not have both turned on.
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
-    - Do make note that if you remove shadows you must also disable the [Shadow Boost](https://www.nexusmods.com/skyrimspecialedition/mods/73133) mod in the ENB Menu.
 
 If you want to tweak your ENB to improve performance, consider looking at Annakin's [ENB Tips](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md) guide. 
 
-To quote her, here is a short answer to improve performance with an ENB turned on.
+To quote her, here is a short answer to improve performance with an ENB turned on:
 > #### How can I improve performance?
 > - Uncheck `EnableLens`.
 > - Uncheck `EnableBloom`.
@@ -379,23 +311,13 @@ Simply delete the folder. Congratulations, you have uninstalled Fahluaan.
 
 ## Contact
 
-Please check the [FAQ](LINK) first if you have any issues. **PLEASE DO NOT DM ME ON DISCORD.** If you have an issue with the list, please join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support.
+If you have an issue with the list, please join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support.
 
 ## Credits and Thanks
 
 - _YOU_ for reading this.
-- Bingus for ENB tweaking, asset editing, mod page screenshots, and branding art for Fahluaan (Logo, Banner, and Splash).
-- Ylikollikas for the original Special Attack system that was used in Arisen.
-- Curly for the original iteration of Ascensio that provided me a baseline to work off of.
-- iAmMe27 for helping me with the CK, documentation, and general WJ related things.
-- Lively for his GuideBook Plugin which I used as a template for the in-game readme.
-- Chanka and fray for their help with moderation, playtesting, and documentation.
--  A Helping Hand, AnnieDOS, Felivarth, Izol, Maelstrom, Roxiie, and Vigo for their time and effort playtesting, providing feedback, and miscellaneous help.
-- [Jolly Co-Operators](https://discord.gg/jolly-coop) and Cacophony for their wonderful community that inspired me to start modding more.
-- JustThatKing, jdsmith2816, and Total for their feedback on graphics and other things.
+- Curly for the original iteration of Ascensio.
 - Bethesda Game Studios.
 - ElminsterAU and the xEdit team
 - Noggog for Mutagen and Synthesis.
 - Halgari and the WJ Team for this amazing platform.
-- [Cosmofujia](https://www.patreon.com/fujiacosmo) for a significant amount of high quality Weapon Models.
-- Aelarr and Anreme for permissions to use some custom mods from The Owl Archives server.
