@@ -4,7 +4,7 @@
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="LINK">Modlist</a> |
-  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> ]
+  <a href="https://ko-fi.com/beangas"> Ko-fi</a>]
 </p>
 
 ---
@@ -13,10 +13,12 @@
 
 **Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
 
-***Fahluaan requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function.***
+***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function.***
 
 # Contents
-  - [Introduction](#Introduction)
+- [Installation](#installation)
+- [Contents](#contents)
+  - [Introduction](#introduction)
     - [System Requirements](#system-requirements)
   - [Installation](#installation-1)
     - [Pre-Installation](#pre-installation)
@@ -28,48 +30,47 @@
       - [Installing Creation Club Content](#installing-creation-club-content)
     - [Wabbajack Installation](#wabbajack-installation)
       - [Installing Wabbajack](#installing-wabbajack)
-      - [Downloading and Installing Fahluaan](#downloading-and-installing-Fahluaan)
+      - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
     - [Problems with installation](#problems-with-installation)
   - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
     - [Game Folder](#game-folder)
     - [Antivirus Exceptions](#antivirus-exceptions)
     - [Widescreen Fixes](#widescreen-fixes)
-    - [Controller and Gamepad Setup](#controller-and-gamepad-setup)
   - [Playing the List](#playing-the-list)
     - [Starting the Game](#starting-the-game)
-    - [In-Game MCM options](#in-game-mcm-options)
   - [Updating the modlist](#updating-the-modlist)
-  - [Tweaking the Game Settings](#tweaking-the-game-settings)
-    - [BethINI](#bethini)
+    - [Tweaking the Game Settings](#tweaking-the-game-settings)
+      - [Performance INI Options](#performance-ini-options)
+      - [BethINI](#bethini)
   - [Removing the Modlist](#removing-the-modlist)
   - [Contact](#contact)
   - [Credits and Thanks](#credits-and-thanks)
 
+
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul, providing minimal gameplay tweaks in favor of an expansive graphical package.
+Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package.
 
 The full modlist can be viewed [here](LINK).
 
-You can find a summary of all relevant changes on the [Gameplay Guide](LINK).
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][https://creativecommons.org/licenses/by-nc-sa/4.0/].
 
 ### System Requirements
 
->  Please note these specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received.
+>  Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences. In the future this will be updated depending on feedback received.
 
 
 | Spec Category | My Specs (1080p) | Recommended (1080p) |
 |     :---:    |     :---:     |     :---:     
-| **CPU**   | ??? |  ??? |
-| **Video Card**    | ??? | ??? |
-| **Ram**    | ??? | ??? |
-| **Storage**    | ??? | ??? |
+| **CPU**   | i7-9700k |  R7 3700x / i5 10600k |
+| **Video Card**    | RTX 2070s | At least 6GB of VRAM |
+| **Ram**    | 32gb (2x16) | 16gb (2x8) |
+| **Storage**    | 980 NVMe | SATA SSD |
 
-Downloads: ??? GB
-Install: ??? GB
-**TOTAL:** ??? GB
+- Downloads: ??? GB
+- Install: ??? GB
+- **TOTAL:** ??? GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
@@ -154,13 +155,13 @@ The English Steam version of Skyrim is the only supported version. I understand 
 
 Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
 
-#### Downloading and Installing Fahluaan
+#### Downloading and Installing Ascensio
 
-Downloading and installing Fahluaan can take a while depending on your internet connection and computer. To install Fahluaan, complete the following steps.
+Downloading and installing Ascensio can take a while depending on your internet connection and computer. To install Ascensio, complete the following steps.
 
 1. Open Wabbajack and click `Browse Modlists`
-2. Press the download button on Fahluaan and wait for it to download.
-3. Set the installation folder to be somewhere like C:\Games\Fahluaan. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
+2. Press the download button on Ascensio and wait for it to download.
+3. Set the installation folder to be somewhere like C:\Games\Ascensio. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
 > The download location does not need to be on a SSD, but it makes installing faster.
 4. Press the play button to begin.
 5. Turn on your favorite show or a nice long video essay Wabbajack does its thing. Alternatively read through this readme again.
@@ -219,26 +220,20 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Widescreen Fixes
 
-To Be Written
-
-### Controller and Gamepad Setup
-
-To Be Written
+At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator. Here you can enable the respective widescreen fixes for your monitor if needed.
 
 ## Playing the List
 
 ### Starting the Game
 
-To Be Written
-
-### In-Game MCM options
-
-To Be Written
+Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the (4-5?) MCMs however you wish.
 
 ## Updating the modlist
 
 Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md) and back up your saves. You may need to start a new game after certain updates.
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
+Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. 
+
+**Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
 
 *Please make sure you back up your saves if you plan on continuing a playthrough across a **save safe** update.*
 
@@ -246,34 +241,34 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 #### Performance INI Options
 
-Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Fahluaan - Default Profile`.
+Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Default Profile`.
 
-`**Skyrim.ini**  
-[Display]  
+**Skyrim.ini**  
+>[Display]  
 fSAOIntensity=15  
 fSAOExpFactor=0.220  
 fSAORadius=800.0000  
 fSAOBias=0.5000  
-fSAOValueDiffFactor=0.3000`  
+fSAOValueDiffFactor=0.3000
 
-Some additional edits can be made in the **ENBSeries.ini** found in the `Stock Game` folder (`[Path to Modlist]\Stock Game`)
+Some additional edits can be made to the default **ENBSeries.ini** found in the NLA ENB Preset folder (`[Path to Modlist]\mods\NLA ENB Preset`)
 
-`**ENBSeries.ini**  
-[EFFECT]  
+**ENBSeries.ini**  
+>[EFFECT]  
 EnableDepthOfField=false  
 EnableAmbientOcclusion=false  
-EnableDetailedShadow=false`  
+EnableDetailedShadow=false
 
-`[SSAO_GAME]  
+>[SSAO_GAME]  
 AOAmount=1.5  
 AOAmountInterior=0.5  
-ColorfulMix=true`  
+ColorfulMix=true
 
-`[COMPLEXFIRELIGHTS]  
-EnableBigRange=false`  
+>[COMPLEXFIRELIGHTS]  
+EnableBigRange=false
 
-`[COMPLEXPARTICLELIGHTS]  
-EnableBigRange=false`  
+>[COMPLEXPARTICLELIGHTS]  
+EnableBigRange=false
 
 #### BethINI
 
@@ -281,9 +276,9 @@ Before running BethINI please make sure that your paths are correctly set. I als
 
  - **Game**: `Skyrim Special Edition`
  - **Game Path**: `[Path to Modlist]\Stock Game`
-   - example: `F:\Ascensio\Stock Game`
+   > example: `F:\Ascensio\Stock Game`
  - **Mod Organizer**: `[Path to Modlist]` 
-   - example: `F:\Ascensio`
+   > example: `F:\Ascensio`
  - **INI Path**: `Mod Organizer > Ascensio - Default Profile`
 
 To get some more FPS, tweak the following value in the detail section in BethINI.
@@ -307,7 +302,7 @@ To quote her, here is a short answer to improve performance with an ENB turned o
 > - Uncheck `Complex Grass`
 
 ## Removing the Modlist
-Simply delete the folder. Congratulations, you have uninstalled Fahluaan.
+Simply delete the folder. Congratulations, you have uninstalled Ascensio.
 
 ## Contact
 
@@ -317,6 +312,7 @@ If you have an issue with the list, please join the [Waking Dreams](https://disc
 
 - _YOU_ for reading this.
 - Curly for the original iteration of Ascensio.
+- Aljo for being a loser.
 - Bethesda Game Studios.
 - ElminsterAU and the xEdit team
 - Noggog for Mutagen and Synthesis.
