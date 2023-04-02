@@ -1,4 +1,4 @@
-![]()
+![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Ascensio%20Banner.png)
 
 <p align="center">
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
