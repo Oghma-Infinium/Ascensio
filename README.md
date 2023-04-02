@@ -51,7 +51,7 @@
 
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package that offers custom recolors and handpicked assets for a consistent visual experience.
+Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition, providing very minimal gameplay tweaks in favor of an expansive graphical package that offers custom recolors and handpicked assets for a consistent visual experience.
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
