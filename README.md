@@ -4,7 +4,8 @@
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="LINK">Modlist</a> |
-  <a href="https://ko-fi.com/beangas"> Ko-fi</a>]
+  <a href="https://ko-fi.com/aljoxo"> Aljo's Ko-fi</a> |
+  <a href="https://ko-fi.com/beangas"> Bingus' Ko-fi</a> ]
 </p>
 
 ---
@@ -49,7 +50,7 @@
 
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package.
+Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package for you to build upon.
 
 The full modlist can be viewed [here](LINK).
 
@@ -63,8 +64,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 | Spec Category | My Specs (1080p) | Recommended (1080p) |
 |     :---:    |     :---:     |     :---:     
-| **CPU**   | i7-9700k |  R7 3700x / i5 10600k |
-| **Video Card**    | RTX 2070s | At least 6GB of VRAM |
+| **CPU**   | i7-9700k |  ??? |
+| **Video Card**    | RTX 2070s | ??? |
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
 | **Storage**    | 980 NVMe | SATA SSD |
 
@@ -87,11 +88,11 @@ These steps are only required for installing the Modlist for the first time. Add
  1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  3. Right click on Skyrim SE and click on properties, untick the "Enable Steam Overlay while in-game."
- 4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
+ 4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP. IF YOU DO SO WABBAJACK WILL FAIL.**
 
 #### Pagefile and crash prevention
 
-Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
+Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. I do not care how much RAM or VRAM you have, please do this step.
 
  To set up your pagefile:
  1. Press **Win Key + R**
@@ -159,13 +160,13 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 
 Downloading and installing Ascensio can take a while depending on your internet connection and computer. To install Ascensio, complete the following steps.
 
-1. Open Wabbajack and click `Browse Modlists`
+1. Open Wabbajack and click `Browse Modlists`. Then tick the `Show Unoffical Lists` box in the top right corner.
 2. Press the download button on Ascensio and wait for it to download.
 3. Set the installation folder to be somewhere like C:\Games\Ascensio. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
 > The download location does not need to be on a SSD, but it makes installing faster.
 4. Press the play button to begin.
-5. Turn on your favorite show or a nice long video essay Wabbajack does its thing. Alternatively read through this readme again.
-6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow what is below or join the [discord server](https://discord.gg/WakingDreams) for support.
+5. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
+6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the instructions below or join the [discord server](https://discord.gg/WakingDreams) for support.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
@@ -220,7 +221,7 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Widescreen Fixes
 
-At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator. Here you can enable the respective widescreen fixes for your monitor if needed.
+At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
 
 ## Playing the List
 
@@ -251,7 +252,7 @@ fSAORadius=800.0000
 fSAOBias=0.5000  
 fSAOValueDiffFactor=0.3000
 
-Some additional edits can be made to the default **ENBSeries.ini** found in the NLA ENB Preset folder (`[Path to Modlist]\mods\NLA ENB Preset`)
+Some additional edits can be made to the default **ENBSeries.ini** found in the EVC ENB Preset folder (`[Path to Modlist]\mods\E.V.C. ENB Preset`)
 
 **ENBSeries.ini**  
 >[EFFECT]  
@@ -283,7 +284,7 @@ Before running BethINI please make sure that your paths are correctly set. I als
 
 To get some more FPS, tweak the following value in the detail section in BethINI.
 
-- `Shadow Resolution`: 2048
+- `Shadow Resolution`: 1024
 - `Ambient Occlusion`: Either use this or the ENB version. The ENB version is more intensive. Do not have both turned on.
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
 
@@ -310,9 +311,10 @@ If you have an issue with the list, please join the [Waking Dreams](https://disc
 
 ## Credits and Thanks
 
-- _YOU_ for reading this.
+- _YOU_ for reading this!
 - Curly for the original iteration of Ascensio.
-- Aljo for being a loser.
+- Aljo for being a loser :)
+- JustThatKing for his wonderful visual academy that jumpstarted this list.
 - Bethesda Game Studios.
 - ElminsterAU and the xEdit team
 - Noggog for Mutagen and Synthesis.
