@@ -3,7 +3,7 @@
 <p align="center">
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="LINK">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/ascensio">Modlist</a> |
   <a href="https://ko-fi.com/aljoxo"> Aljo's Ko-fi</a> |
   <a href="https://ko-fi.com/beangas"> Bingus' Ko-fi</a> ]
 </p>
@@ -50,9 +50,9 @@
 
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package for you to build upon.
+Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package.
 
-The full modlist can be viewed [here](LINK).
+The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -69,9 +69,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
 | **Storage**    | 980 NVMe | SATA SSD |
 
-- Downloads: ??? GB
-- Install: ??? GB
-- **TOTAL:** ??? GB
+- Downloads: 84 GB
+- Install: 111 GB
+- **TOTAL:** 195 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
@@ -227,7 +227,7 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 ### Starting the Game
 
-Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the (4-5?) MCMs however you wish.
+Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the (4) MCMs however you wish.
 
 ## Updating the modlist
 
