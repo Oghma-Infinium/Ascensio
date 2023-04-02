@@ -1,4 +1,4 @@
-![](Header)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Arisen%20Banner.png?token=GHSAT0AAAAAACAY3BNFGTTMVQKLO5KSQ2UAZBJ3ACQ)
 
 <p align="center">
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
@@ -46,6 +46,7 @@
   - [Removing the Modlist](#removing-the-modlist)
   - [Contact](#contact)
   - [Credits and Thanks](#credits-and-thanks)
+
 
 
 ## Introduction
