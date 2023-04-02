@@ -3,7 +3,7 @@
 <p align="center">
   [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/ascensio">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/ascensio-1">Modlist</a> |
   <a href="https://ko-fi.com/aljoxo"> Aljo's Ko-fi</a> |
   <a href="https://ko-fi.com/beangas"> Bingus' Ko-fi</a> ]
 </p>
@@ -51,9 +51,9 @@
 
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package.
+Ascensio is a comprehensive visual overhaul, providing very minimal gameplay tweaks in favor of an expansive graphical package that offers custom recolors and handpicked assets for a consistent visual experience.
 
-The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio).
+The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -228,7 +228,7 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 ### Starting the Game
 
-Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the (4) MCMs however you wish.
+Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the MCMs however you wish.
 
 ## Updating the modlist
 
