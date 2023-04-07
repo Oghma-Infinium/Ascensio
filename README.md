@@ -228,7 +228,7 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 ### Starting the Game
 
-Head over to the installation folder of `Ascensio` and locate an executable named `ModOrganizer.exe` and launch it.
+Head over to the installation folder of `Ascensio`, locate an executable named `ModOrganizer.exe` and launch it.
 
 - **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` Separator.
 
@@ -243,13 +243,11 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
 
-*Please make sure you back up your saves if you plan on continuing a playthrough across a **save safe** update.*
-
 ### Tweaking the Game Settings
 
 #### Performance INI Options
 
-Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB`.
+Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB (Zangdar's Edit)`.
 
 **Skyrim.ini**  
 >[Display]  
@@ -259,24 +257,16 @@ fSAORadius=800.0000
 fSAOBias=0.5000  
 fSAOValueDiffFactor=0.3000
 
-Some additional edits can be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\Patrician ENB` or `[Path to Modlist]\mods\Rudy ENB SE for Cathedral Weathers`.
+Some edits can also be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\Patrician ENB` or `[Path to Modlist]\mods\Rudy ENB SE for Cathedral Weathers`.
 
 **ENBSeries.ini**  
 >[EFFECT]  
-EnableDepthOfField=false  
 EnableAmbientOcclusion=false  
-EnableDetailedShadow=false
 
 >[SSAO_GAME]  
 AOAmount=1.5  
 AOAmountInterior=0.5  
 ColorfulMix=true
-
->[COMPLEXFIRELIGHTS]  
-EnableBigRange=false
-
->[COMPLEXPARTICLELIGHTS]  
-EnableBigRange=false
 
 #### BethINI
 
@@ -285,9 +275,9 @@ Before running BethINI please make sure that your paths are correctly set. I als
  - **Game**: `Skyrim Special Edition`
  - **Game Path**: `[Path to Modlist]\Stock Game`
    > example: `F:\Ascensio\Stock Game`
- - **Mod Organizer**: `[Path to Modlist]` 
-   > example: `F:\Ascensio`
- - **INI Path**: `Mod Organizer > Ascensio - Default Profile`
+ - **Mod Organizer**: `[Path to Modlist]\ModOrganizer.exe` 
+   > example: `F:\Ascensio\ModOrganizer.exe`
+ - **INI Path**: `Mod Organizer > Ascensio - Patrician ENB` or `Mod Organizer > Ascensio - Rudy ENB (Zangdar's Edit)`
 
 To get some more FPS, tweak the following value in the detail section in BethINI.
 
@@ -295,7 +285,7 @@ To get some more FPS, tweak the following value in the detail section in BethINI
 - `Ambient Occlusion`: Either use this or the ENB version. The ENB version is more intensive. Do not have both turned on.
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
 
-If you want to tweak your ENB to improve performance, consider looking at Annakin's [ENB Tips](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md) guide. 
+If you want to tweak your ENB further to improve performance, consider looking at Annakin's [ENB Tips Guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md). 
 
 To quote her, here is a short answer to improve performance with an ENB turned on:
 > #### How can I improve performance?
@@ -318,11 +308,11 @@ If you have an issue with the list, please join the [Waking Dreams](https://disc
 
 ## Credits and Thanks
 
-- _YOU_ for reading this!
-- Curly for the original iteration of Ascensio.
+- _YOU_ for reading this :D
+- Curly for the original iteration of Ascensio
 - Aljo for being a loser :)
-- JustThatKing for his wonderful visual academy that jumpstarted this list.
-- Bethesda Game Studios.
+- JustThatKing for his wonderful visual academy that jumpstarted this list
+- Bethesda Game Studios
 - ElminsterAU and the xEdit team
-- Noggog for Mutagen and Synthesis.
-- Halgari and the WJ Team for this amazing platform.
+- Noggog for Mutagen and Synthesis
+- Halgari and the WJ Team for this amazing platform
