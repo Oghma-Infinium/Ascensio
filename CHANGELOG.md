@@ -18,7 +18,8 @@
 ### Info
 
  - **This update is not save game compatible.**
- - Did some bugfixes and asset reordering, although I don't remember them all, but bugs like chaurus eggs being wonky, Statue of Azura dissapearing, and ice caves having green cave meshes should be fixed now!
+ - Did some bugfixes and asset reordering, although I don't remember all changes, but bugs like chaurus eggs being wonky, Statue of Azura dissapearing, ice caves having green cave meshes, floating mushrooms on dead trees, and missing textures for Soul Cairn trees should be fixed now!
+ - LODs should be a tiny bit better brightness wise, but they are still unfortauntely 2D since Nature of the Wildlands doesn't have full 3D LODs support
 
 <Details>
 
@@ -28,70 +29,75 @@
 
 ### Added
 
- - Icy Mesh Remaster - ENB Addon
- - Weathered Stockade Retexture
- - Rally's Solitude Roofs
- - Patrician ENB
- - Optional Rudy ENB and Cathedral Weathers
-   > Read README for details!
- - TESL - Loading Screens
- - True Directional Movement
- - Immersive KS Hairdos
- - Improved Eyes
- - Bits N Pieces Female Skin
- - Orc Brow Horn Tweaks
- - Draconic Argonian Female Textures
- - Khajiit Hair by Saerileth
- - CoverKhajiits - Face Textures 4K
- - SC's Khajiit Normal Maps
- - Flawn's Argonians 
-   > Females Only
- - Enhanced Argonian Textures
-   > Scars and Mouth only
- - More Horn Styles for Argonians & Better Argonian Horns Patch
- - Iconic's Ash Guardian
- - Iconic's Arvark
- - Wizkid's Signs
- - Rudy's Nordic Pottery
- - Rally's Barrels
- - Respective ENB Complex Grass Patches for Origins of the Forest, Folkvangr, and Cathedral 3D Pine Grass
- - Cathedral Mountain Flowers
- - Cathedral Mountain Flowers - Alternate Textures
- - Cathedral 3D Nightshade
- - Cathedral Lavendar
- - Cathedral Thistle
- - Cathedral Deathbell
- - Sowables of Skyrim - Leeks
- - Sowables of Skyrim - Potatoes
- - Sowables of Skyrim - Cabbages
- - Forgotten Plants Textured
- - Spiky Grass Mesh Improvements
- - Less Spiky Tundragrass
- - Rally's Textures -  Shibui Skyrim Recolor
- - Reach Shrub Redone
+- A Nirnroot by Kidgimmick
+- AmidianBorn's Ancient Nord Armor
+- Anthology Main Menu - Morrowind
+- Bits N Pieces Female Skin
+- Cathedral 3D Nightshade
+- Cathedral Deathbell
+- Cathedral Lavendar
+- Cathedral Mountain Flowers
+- Cathedral Mountain Flowers - Alternate Textures
+- Cathedral Thistle
+- CoverKhajiits - Face Textures 4K
+- Draconic Argonian Female Textures
+- Enhanced Argonian Textures
+- Ethreal Clouds
+- Flawn's Argonians
+- Forgotten Plants Textured
+- IWAT's SMIM Smelter Retexture
+- Iconic's Arvark
+- Iconic's Ash Guardian
+- Icy Mesh Remaster - ENB Addon
+- Immersive KS Hairdos
+- Improved Eyes
+- Improved gourds
+- Khajiit Hair by Saerileth
+- Khajiit Lion Manes
+- Less Spiky Tundragrass
+- Mists of Tamriel
+- More Horn Styles for Argonians & Better Argonian Horns Patch
+- Mushroom Remover from Dead Trees
+- Myrwatch - House Fix
+- Optional Rudy ENB and Cathedral Weathers
+- Orc Brow Horn Tweaks
+- Patrician ENB
+- Praedy's Night Sky
+- Rally's Barrels
+- Rally's Solitude Roofs
+- Rally's Textures -  Shibui Skyrim Recolor
+- Reach Shrub Redone
+- Respective ENB Complex Grass Patches for Origins of the Forest, Folkvangr, and Cathedral 3D Pine Grass
+- Rudy's Nordic Pottery
+- SC's Khajiit Normal Maps
+- Sowables of Skyrim - Cabbages
+- Sowables of Skyrim - Leeks
+- Sowables of Skyrim - Potatoes
+- Spiky Grass Mesh Improvements
+- Sunder and Wraithguard - Vault Fix
+- TESL - Loading Screens
+- True Directional Movement
+- Weathered Stockade Retexture
+- Wizkid's Signs
+- Xtudo's White Phial
 ### Removed
 
- - Redundant patches I didn't need anymore 😅
- - Redundant plant mods that NoTWL took care of
- - Skyrim 3D Trees and Plants
- - Oblivion Interaction Icons
- - Actual Sweet Roll Variants
-   > In favor of Boiled Sweet Rolls
- - Generic Grass Limiter
-   > Wasn't needed with QW's Grass Patch
- - E.V.C ENB
- - Animated Clutter
-   > Did not like these personally and less mesh edits is easier for me
- - Cunny's stockade textures
- - Feminine Argonian Textures
- - BnP Teeth Overhaul
-   > Made the teeth too bright with my setup
- - Mature Skin
-   > Had wonky eyelids for Altmer
- - Better Signage
- - Awesome HD Barrels
- - Terre's Fur Textures for Khajiits
-    > Unfortunately had some weird artifacts with these
+- Actual Sweet Roll Variants
+- Animated Clutter
+- Awesome HD Barrels
+- Better Signage
+- BnP Teeth Overhaul
+- Cunny's stockade textures
+- E.V.C ENB
+- Feminine Argonian Textures
+- Generic Grass Limiter
+- Immersive Map Main Menu
+- Mature Skin
+- Oblivion Interaction Icons
+- Redundant patches I didn't need anymore 😅
+- Redundant plant mods that NoTWL took care of
+- Skyrim 3D Trees and Plants
+- Terre's Fur Textures for Khajiits
 </Details>
 
 
