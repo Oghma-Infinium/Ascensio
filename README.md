@@ -228,11 +228,13 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 ### Starting the Game
 
-- **(OPTIONAL)** If you wish to not use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may switch to under the `ENB Files` Separator.
+Head over to the installation folder of `Ascensio` and locate an executable named `ModOrganizer.exe` and launch it.
+
+- **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` Separator.
 
 - **(OPTIONAL)** For those of you that prefer Rudy ENB entirely instead of Patrician ENB, there is an optional profile I included that allows you to switch to Rudy ENB. 
 
-After you have picked your preferred ENB Profile, head over to the installation folder of `Ascensio` and locate an executable named `ModOrganizer.exe` and launch it. After MO2 is launched, click the run button next to the "Ascensio" Executable in MO2. The MCMs are free for you to configure after you leave the [Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) cave.
+After you have picked your preferred ENB Profile, click the run button next to the "Ascensio" Executable in MO2. The MCMs are free for you to configure after you leave the [Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) cave.
 
 ## Updating the modlist
 
