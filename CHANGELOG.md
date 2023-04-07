@@ -12,7 +12,11 @@
 
 # Changelog
 
+## 1.1.1
 
+### Info
+
+ - Tiny update to address the broken Blades Armor Retexture meta file
 
 ## 1.1.0
 ### Info
