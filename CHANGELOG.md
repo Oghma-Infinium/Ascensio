@@ -19,7 +19,7 @@
 
  - **This update is not save game compatible.**
  - Did some bugfixes and asset reordering, although I don't remember all changes, but bugs like chaurus eggs being wonky, Statue of Azura dissapearing, ice caves having green cave meshes, floating mushrooms on dead trees, and missing textures for Soul Cairn trees should be fixed now!
- - LODs should be a tiny bit better brightness wise, but they are still unfortauntely 2D since Nature of the Wildlands doesn't have full 3D LODs support
+ - LODs should be a tiny bit better brightness wise, but they are still unfortunately 2D since Nature of the Wildlands doesn't have full 3D LODs support
 
 <Details>
 
