@@ -40,10 +40,11 @@
 - Cathedral Mountain Flowers - Alternate Textures
 - Cathedral Thistle
 - CoverKhajiits - Face Textures 4K
-- Draconic Argonian Female Textures
 - Enhanced Argonian Textures
+  > Scars and Mouth Only
 - Ethreal Clouds
 - Flawn's Argonians
+  > Females Only
 - Forgotten Plants Textured
 - IWAT's SMIM Smelter Retexture
 - Iconic's Arvark
@@ -60,8 +61,10 @@
 - Mushroom Remover from Dead Trees
 - Myrwatch - House Fix
 - Optional Rudy ENB and Cathedral Weathers
+  > Read README for details
 - Orc Brow Horn Tweaks
 - Patrician ENB
+  > Read README for details
 - Praedy's Night Sky
 - Rally's Barrels
 - Rally's Solitude Roofs
