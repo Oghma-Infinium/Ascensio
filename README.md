@@ -60,7 +60,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### System Requirements
 
->  Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences. In the future this will be updated depending on feedback received.
+> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences. In the future this will be updated depending on feedback received.
 
 
 | Spec Category | My Specs (1080p) | Recommended (1080p) |
@@ -70,9 +70,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
 | **Storage**    | 980 NVMe | SATA SSD |
 
-- Downloads: 102 GB
-- Install: 114 GB (actual final size may vary)
-- **TOTAL:** 216 GB
+- Downloads: 103 GB
+- Install: 109 GB (actual final size may vary)
+- **TOTAL:** 213 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
@@ -194,7 +194,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 	- This error means that there is an issue where Wabbajack is unable to hash your Creation Club Content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely that Wabbajack or Bethesda has messed up the hashing for these files. If this is the case, please wait for it to be resolved before continuing to download the list.
 
 - Unable to download `Skyrim_Default.ini`:
- - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
+  - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
 
 ## Post-Installation and Optional Setup
 
@@ -228,7 +228,11 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 ### Starting the Game
 
-Ascensio includes [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to allow players to skip the introduction entirely or play through it if you'd like. Once you are out of the starting cave, you are free to configure the MCMs however you wish.
+- **(OPTIONAL)** If you wish to not use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may switch to under the `ENB Files` Separator.
+
+- **(OPTIONAL)** For those of you that prefer Rudy ENB entirely instead of Patrician ENB, there is an optional profile I included that allows you to switch to Rudy ENB. 
+
+After you have picked your preferred ENB Profile, head over to the installation folder of `Ascensio` and locate an executable named `ModOrganizer.exe` and launch it. After MO2 is launched, click the run button next to the "Ascensio" Executable in MO2. The MCMs are free for you to configure after you leave the [Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) cave.
 
 ## Updating the modlist
 
@@ -243,7 +247,7 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 #### Performance INI Options
 
-Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Default Profile`.
+Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB`.
 
 **Skyrim.ini**  
 >[Display]  
@@ -253,7 +257,7 @@ fSAORadius=800.0000
 fSAOBias=0.5000  
 fSAOValueDiffFactor=0.3000
 
-Some additional edits can be made to the default **ENBSeries.ini** found in the EVC ENB Preset folder (`[Path to Modlist]\mods\E.V.C. ENB Preset`)
+Some additional edits can be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\Patrician ENB` or `[Path to Modlist]\mods\Rudy ENB SE for Cathedral Weathers`.
 
 **ENBSeries.ini**  
 >[EFFECT]  
@@ -308,7 +312,7 @@ Simply delete the folder. Congratulations, you have uninstalled Ascensio.
 
 ## Contact
 
-If you have an issue with the list, please join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support.
+If you have an issue with the list, please join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support!
 
 ## Credits and Thanks
 
