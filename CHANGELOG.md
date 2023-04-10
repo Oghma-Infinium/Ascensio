@@ -12,6 +12,51 @@
 
 # Changelog
 
+## 1.1.2
+
+### Info
+ - **This update is save safe**
+   - Due to Wabbajack weirdness, **please make sure you delete the `profiles` folder within your Ascensio folder before updating!!**
+ - Made the default profile Rudy ENB (Zagndar's Edit). Patrician ENB Profile is still available
+ - Fixed potions having zoomed inventory models
+ - Fixed metal armor bug with Stalhrim Refrozen when ENB's complex material is on
+- Insects Begone mod was added *(Check under Optional Addons to enable this in MO2)*
+
+
+<Details>
+
+### Updated
+- Icy Mesh Remaster
+- Icy Mesh Remaster - ENB Addon
+- SPID
+- Iconic's Arvark
+- Xtudo's White Phial
+
+
+### Added
+
+ - ENB Light addon for KG's Nirnroot
+ - KG's Frost Mirriam
+ - KG's Elves Ear
+ - Xtudo's Arvark
+ - Switched from Polar Peaks 4K to 8K
+ - Switched from Dave's Blended Roads 2K to 4K
+ - Xtudo's Soul Husk Extract for Praedy's Soul Cairn
+ - Oblivion-like Loading Menu
+ - Untarnished UI
+ - Optional Insects Begone Patch
+ - Vitruvia - Skin Texture Overhaul for Males
+
+### Removed
+
+ - Stalhrim Refrozen - 2K Addon
+ - Skysight Skins
+ - True Faces - A Character Enhancement Project
+ - TESL Loading Screen Tweaks
+ - Rudy HQ - More Lights for ENB - Deathbells and Nirnroots
+   > Due to other mods already covering these plants
+</Details>
+
 ## 1.1.1
 
 ### Info
