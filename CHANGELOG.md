@@ -16,7 +16,7 @@
 
 ### Info
  - **This update is save safe**
-   - Due to Wabbajack weirdness, **please make sure you delete the `profiles` folder within your Ascensio folder before updating!!**
+   - Due to Wabbajack weirdness, **backup your saves and make sure you delete the `profiles` folder within your Ascensio folder before updating!**
  - Made the default profile Rudy ENB (Zagndar's Edit). Patrician ENB Profile is still available
  - Fixed potions having zoomed inventory models
  - Fixed metal armor bug with Stalhrim Refrozen when ENB's complex material is on
