@@ -1,9 +1,9 @@
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Ascensio%20Banner.png)
 
 <p align="center">
-  [  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
+  [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/89138">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/ascensio-1">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
   <a href="https://ko-fi.com/aljoxo"> Aljo's Ko-fi</a> |
   <a href="https://ko-fi.com/beangas"> Bingus' Ko-fi</a> ]
 </p>
@@ -14,7 +14,7 @@
 
 **Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
 
-***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function.***
+***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function!***
 
 # Contents
 - [Installation](#installation)
@@ -39,6 +39,7 @@
     - [Widescreen Fixes](#widescreen-fixes)
   - [Playing the List](#playing-the-list)
     - [Starting the Game](#starting-the-game)
+      - [Optional Addons](#optional-addons)
   - [Updating the modlist](#updating-the-modlist)
     - [Tweaking the Game Settings](#tweaking-the-game-settings)
       - [Performance INI Options](#performance-ini-options)
@@ -49,9 +50,10 @@
 
 
 
+
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition, providing very minimal gameplay tweaks in favor of an expansive graphical package that offers custom recolors and handpicked assets for a consistent visual experience.
+Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 people who care a little bit too much about visuals to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience.  
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
@@ -60,7 +62,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### System Requirements
 
-> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences. In the future this will be updated depending on feedback received.
+> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS. In the future this will be updated depending on feedback received.
 
 
 | Spec Category | My Specs (1080p) | Recommended (1080p) |
@@ -141,7 +143,7 @@ The English Steam version of Skyrim is the only supported version. I understand 
 
  If you have never installed the Creation Club Content before, please do the following:
  1. Purchase the *Skyrim Anniversary Edition* Upgrade from Steam. If you do not do this, you can not install or play the list. 
-   > **There is no work around for this and pirating this content will not work. If you pirate the content and come asking for assistance, you will be banned.**
+   > **There is no work around for this and pirating this content will not work. If you pirate the content and come asking for assistance in the discord server, you will be banned.**
  2. Once you have the Anniversary Edition bought, do the following steps below.
  3. In your Steam Library, right-click on the menu entry for Skyrim, select `Properties` and then select `Local Files`. Click `Verify Integrity of Game Files` and wait.
  4. Once this is completed, launch the game once from Steam. You may receive a prompt that your settings were detected or not detected, this does not matter, nor do any options you select here. Simply open the launcher and launch the game.
@@ -200,7 +202,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Game Folder
 
-Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game`. You don’t need to copy anything at all.
+Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game` within your Acsensio folder. You don’t need to copy anything at all.
 
 ### Antivirus Exceptions
 
@@ -230,15 +232,20 @@ At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator
 
 Head over to the installation folder of `Ascensio`, locate an executable named `ModOrganizer.exe` and launch it.
 
+#### Optional Addons 
+- **(OPTIONAL)** For those of you that prefer Patrician ENB instead of Rudy ENB, there is an optional profile I included that allows you to switch to Patrician ENB.
+  
 - **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` Separator.
 
-- **(OPTIONAL)** For those of you that prefer Rudy ENB entirely instead of Patrician ENB, there is an optional profile I included that allows you to switch to Rudy ENB. 
-
-After you have picked your preferred ENB Profile, click the run button next to the "Ascensio" Executable in MO2. The MCMs are free for you to configure after you leave the [Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) cave.
+- **(OPTIONAL)** There is a custom Insects Begone patch that removes all insects from the game that you may tick on. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure
+- **(OPTIONAL)** If you're struggling with performance, or think you might struggle, then tick on the `Ascensio - Performance DynDOLOD Output` first, then disable the original DynDOLOD Output. If you use this addon on, please make sure it is on a fresh save.
+  
+After you have picked your preferred ENB Profile, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
 
 ## Updating the modlist
 
 Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md) and back up your saves. You may need to start a new game after certain updates.
+
 Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. 
 
 **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
@@ -310,7 +317,7 @@ If you have an issue with the list, please join the [Waking Dreams](https://disc
 
 - _YOU_ for reading this :D
 - Curly for the original iteration of Ascensio
-- Aljo for being a loser :)
+- The Waking Dreams Dev team <3
 - JustThatKing for his wonderful visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team
