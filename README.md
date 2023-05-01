@@ -12,7 +12,7 @@
 
 **Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
 
-***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function!***
+***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game to install the modlist!***
 
 # Contents
 - [Contents](#contents)
