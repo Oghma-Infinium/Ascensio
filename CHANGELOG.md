@@ -105,7 +105,7 @@
 ### Added
 
  - A shit ton of RemmyKun's Particle Lights for ENB mods
- - NVICO - Modular High Poly NPC Overhaul
+ - NVICO - Modular High Poly NPC Overhaul (with the Vanilla Hair Restored patch)
  - Ascensio Facegen for Vampires
  - Stormcloak Rebellion Refine
  - Whiterun Hold Refine
