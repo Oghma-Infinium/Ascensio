@@ -66,9 +66,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
 | **Storage**    | 980 NVMe | SATA SSD |
 
-- Downloads: 103 GB
-- Install: 109 GB (actual final size may vary)
-- **TOTAL:** 213 GB
+- Downloads: 117 GB
+- Install: 130 GB (actual final size may vary)
+- **TOTAL:** 248 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
