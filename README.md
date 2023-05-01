@@ -10,18 +10,15 @@
 
 ---
 
-# Installation
-
 **Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
 
 ***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game for the list to function!***
 
 # Contents
-- [Installation](#installation)
 - [Contents](#contents)
   - [Introduction](#introduction)
     - [System Requirements](#system-requirements)
-  - [Installation](#installation-1)
+  - [Installation](#installation)
     - [Pre-Installation](#pre-installation)
       - [Installing Microsoft Visual C++ Redistribution Package](#installing-microsoft-visual-c-redistribution-package)
       - [Pagefile and crash prevention](#pagefile-and-crash-prevention)
@@ -36,7 +33,6 @@
   - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
     - [Game Folder](#game-folder)
     - [Antivirus Exceptions](#antivirus-exceptions)
-    - [Widescreen Fixes](#widescreen-fixes)
   - [Playing the List](#playing-the-list)
     - [Starting the Game](#starting-the-game)
       - [Optional Addons](#optional-addons)
@@ -49,11 +45,9 @@
   - [Credits and Thanks](#credits-and-thanks)
 
 
-
-
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 people who care a little bit too much about visuals to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience.  
+Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 people, who care a little bit too much about visuals, to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience.  
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
@@ -76,7 +70,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - Install: 109 GB (actual final size may vary)
 - **TOTAL:** 213 GB
 
- > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
+ > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
 ## Installation
 
@@ -84,7 +78,7 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 
 ### Pre-Installation
 
-These steps are only required for installing the Modlist for the first time. Additionally, many of these steps may be covered in other modlist installs, for new users I suggest reading through here regardless.
+These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
 #### Installing Microsoft Visual C++ Redistribution Package
 
@@ -95,7 +89,7 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Pagefile and crash prevention
 
-Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. I do not care how much RAM or VRAM you have, please do this step.
+Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
 
  To set up your pagefile:
  1. Press **Win Key + R**
@@ -116,13 +110,13 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 
 #### Setting Shader Cache Size
  Additionally, if you have an NVIDIA GeForce Graphics Card, please do the following:
- This step is **optional** but can provide some extra stability. 
+ This step is **optional** but can provide some extra stability.
 
  1. Right-click on your desktop and select **NVIDIA Control Panel**
  2. Navigate and click on **Manage 3D settings**. It is the 2nd one to the top.
  3. Scroll down in Global Settings until you see **Shader Cache Size**
  4. Double Click **Driver Default** to the right of Shader Cache Size and select **10 GB**
- 5. Click **Apply** in the bottom right hand corner. 
+ 5. Click **Apply** in the bottom right hand corner.
  6. You may exit out of the application.
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
 
@@ -132,7 +126,7 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 
 #### Game Language
 
-The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG/Bethesda.net versions, but due to the core file differences between the different versions, I am only able to support one game version.
+The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG versions, but due to the core file differences between the different versions, I am only able to support one game version.
 
  1. Right click on your Skyrim in Steam
  2. Click *Properties*
@@ -144,42 +138,41 @@ The English Steam version of Skyrim is the only supported version. I understand 
  If you have never installed the Creation Club Content before, please do the following:
  1. Purchase the *Skyrim Anniversary Edition* Upgrade from Steam. If you do not do this, you can not install or play the list. 
    > **There is no work around for this and pirating this content will not work. If you pirate the content and come asking for assistance in the discord server, you will be banned.**
- 2. Once you have the Anniversary Edition bought, do the following steps below.
- 3. In your Steam Library, right-click on the menu entry for Skyrim, select `Properties` and then select `Local Files`. Click `Verify Integrity of Game Files` and wait.
- 4. Once this is completed, launch the game once from Steam. You may receive a prompt that your settings were detected or not detected, this does not matter, nor do any options you select here. Simply open the launcher and launch the game.
- 5. Once the intro logo finishes displaying and the Skyrim logo appears, you should receive a prompt to "Download All Content?" Accept this option.
- 6. If you did not receive a prompt to download, select the Creation Club option from the menu, and you should find a "Download All" prompt in there somewhere. If this message does not appear, you have not purchased the $20 Upgrade. Begin again from step 1.
- 7. Wait for the download process to complete. Do **NOT** ALT-TAB during this process as it will cause the process to fail and you will have to start over again.
- 8.  Proceed with the rest of the installation.
+ 2. In your Steam Library, right-click on the menu entry for Skyrim, select `Properties` and then select `Local Files`. Click `Verify Integrity of Game Files` and wait.
+ 3. Once this is completed, launch the game once from Steam. You may receive a prompt that your settings were detected or not detected, this does not matter. Simply open the launcher and start the game.
+ 4. Once the intro logo finishes displaying and the Skyrim logo appears, you should receive a prompt to "Download All Content?" Accept this option.
+ 5. If you did not receive a prompt to download, select the Creation Club option from the menu, and you should find a "Download All" prompt at the bottom. If this message does not appear, you have not purchased the $20 Upgrade. Go back to Step 1.
+ 6. Wait for the download process to complete. Do **not** Alt-Tab during this process as it will cause the download to fail and you will have to start over again.
+ 7. Proceed with the rest of the installation.
 
 
 ### Wabbajack Installation
 
 #### Installing Wabbajack
 
-Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
+Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) from the Wabbajack Github. Extract the contents of the Wabbajack archive and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
 
 #### Downloading and Installing Ascensio
 
 Downloading and installing Ascensio can take a while depending on your internet connection and computer. To install Ascensio, complete the following steps.
 
-1. Open Wabbajack and click `Browse Modlists`. Then tick the `Show Unoffical Lists` box in the top right corner.
-2. Press the download button on Ascensio and wait for it to download.
-3. Set the installation folder to be somewhere like C:\Games\Ascensio. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
-> The download location does not need to be on a SSD, but it makes installing faster.
+1. Open Wabbajack and click `Browse Modlists`. Then tick on the `Show Unoffical Lists` box in the top right corner. Then pick the `Skyrim Special Edition` from the game filter drop-down box or use the search bar to type in the name of the list.
+2. Press the download arrow on the Ascensio UI card and wait for it to download.
+3. Set the installation folder to be a path such as `C:\Games\Ascensio`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
+> The download location does not need to be on a SSD, but it makes installing faster. The downloads location does not need to be on the same drive as the installation folder path either.
 4. Press the play button to begin.
-5. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
-6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the instructions below or join the [discord server](https://discord.gg/WakingDreams) for support.
+5. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again :D
+6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow some of the pointers below or join the [discord server](https://discord.gg/WakingDreams) for support.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
 
 ### Problems with installation
 
-It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
+It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below:
 
 - Could not download **X**:
-	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
+	- Big files can fail to download due to connection issues. You can either run Wabbajack again or download the file manually. If you decide to manually download it, make sure to place the archive in the downloads folder that was specified in the [Downloading and Installing Ascensio](#downloading-and-installing-ascensio) section.
 
 - **X** is not a whitelisted download:
 
@@ -192,8 +185,8 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 - Antivirus reports a virus:
 	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
 
-- Unable to download `Data_ccXXXXX - *.bsa` or `*.esp`:
-	- This error means that there is an issue where Wabbajack is unable to hash your Creation Club Content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely that Wabbajack or Bethesda has messed up the hashing for these files. If this is the case, please wait for it to be resolved before continuing to download the list.
+- Unable to download `Data_ccXXXXX.bsa` or `*Data_ccXXXXX.esm`:
+	- This error means Wabbajack is unable to hash your creation club content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely Bethesda has updated these files. If this is the case, please wait for the announcement ping for a new release on our discord server before continuing to download the list. 
 
 - Unable to download `Skyrim_Default.ini`:
   - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
@@ -202,13 +195,13 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Game Folder
 
-Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game` within your Acsensio folder. You don’t need to copy anything at all.
+Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Acsensio folder.
 
 ### Antivirus Exceptions
 
 Generally speaking, using Windows Defender is advised as it is a solid antivirus software that will have minimal interference with the game. Antivirus programs can be notorious for false flagging MO2's VFS as problematic, causing crashes or other problems. Antivirus programs like BitDefender, Norton, and Webroot are especially aggressive, and you will very likely need to fully remove them from your PC in order to actually launch the game through MO2.
 
-If you use Windows Defender, it is advised that you set up an Exception for the modlist. To do this follow these steps.
+If you use Windows Defender, it is advised that you set up an exception for the modlist. To do this, follow these steps:
  1. Press the Windows Key.
  2. Type "Windows Defender" in the search bar and select "Windows Security".
  3. Click on "Virus & threat protection" in the left pane.
@@ -222,10 +215,6 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
     - Nemesis Unlimited Behavior Engine.exe (`[Path to Modlist]\mods\Project New Reign - Nemesis Unlimited Behavior Engine\Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe`)
     - Synthesis.exe (`[Path to Modlist]\tools\Synthesis\Synthesis.exe`)
 
-### Widescreen Fixes
-
-At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
-
 ## Playing the List
 
 ### Starting the Game
@@ -235,18 +224,21 @@ Head over to the installation folder of `Ascensio`, locate an executable named `
 #### Optional Addons 
 - **(OPTIONAL)** For those of you that prefer Patrician ENB instead of Rudy ENB, there is an optional profile I included that allows you to switch to Patrician ENB.
   
-- **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` Separator.
+- **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` separator.
 
-- **(OPTIONAL)** There is a custom Insects Begone patch that removes all insects from the game that you may tick on. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure
-- **(OPTIONAL)** If you're struggling with performance, or think you might struggle, then tick on the `Ascensio - Performance DynDOLOD Output` first, then disable the original DynDOLOD Output. If you use this addon on, please make sure it is on a fresh save.
+- **(OPTIONAL)** At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
   
-After you have picked your preferred ENB Profile, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
+- **(OPTIONAL)** At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
+  
+- **(OPTIONAL)** At the bottom of the left pane in MO2, there is a `Performance Options` separator you can expand. If you're struggling with performance, then feel free to tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Perf Synthesis Output` for the ENB Profile you're using. Finally, disable the original DynDOLOD Output and the original Synthesis Output.
+  
+After you have picked your preferred ENB profile and gone through the optionals, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
 
 ## Updating the modlist
 
-Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md) and back up your saves. You may need to start a new game after certain updates.
+Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md). You may need to start a new game after certain updates.
 
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. 
+Updating is like installing the list. Simply make sure your install/downloads paths are the same wihtin Wabbajack and tick on the `overwrite installation` button.
 
 **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
 
@@ -254,7 +246,7 @@ Updating is like installing the list. Simply make sure your paths are the same a
 
 #### Performance INI Options
 
-Here are recommended ini tweaks that you can make in order to potentially improve performance without messing up the visuals of the list and/or ENB. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB (Zangdar's Edit)`.
+Here are recommended ini tweaks that you can make in order to potentially improve performance. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB (Zangdar's Edit)` depending on the profile you're using.
 
 **Skyrim.ini**  
 >[Display]  
@@ -277,7 +269,7 @@ ColorfulMix=true
 
 #### BethINI
 
-Before running BethINI please make sure that your paths are correctly set. I also suggest backing up the original `.ini` files just in case. 
+Before running BethINI please make sure that your paths are correctly set within the `Setup` tab.
 
  - **Game**: `Skyrim Special Edition`
  - **Game Path**: `[Path to Modlist]\Stock Game`
@@ -286,10 +278,10 @@ Before running BethINI please make sure that your paths are correctly set. I als
    > example: `F:\Ascensio\ModOrganizer.exe`
  - **INI Path**: `Mod Organizer > Ascensio - Patrician ENB` or `Mod Organizer > Ascensio - Rudy ENB (Zangdar's Edit)`
 
-To get some more FPS, tweak the following value in the detail section in BethINI.
+To squeeze out some more FPS, tweak the following value in the `Detail` tab within BethINI.
 
 - `Shadow Resolution`: 1024
-- `Ambient Occlusion`: Either use this or the ENB version. The ENB version is more intensive. Do not have both turned on.
+- `Ambient Occlusion`: Either use this version within BethINI or the ENB version. The ENB version is more intensive. **Do not have both turned on.**
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
 
 If you want to tweak your ENB further to improve performance, consider looking at Annakin's [ENB Tips Guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md). 
@@ -311,7 +303,7 @@ Simply delete the folder. Congratulations, you have uninstalled Ascensio.
 
 ## Contact
 
-If you have an issue with the list, please join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support!
+If you have an issue with the list, please feel free to join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support!
 
 ## Credits and Thanks
 
