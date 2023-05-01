@@ -221,7 +221,6 @@
  - IWAT's Draw Knife
  - IWAT's Sharpening Wheel
  - Modern Brawl Bug Fix
- - Modern Brawl Bug Fix
  - No more Reach Mountain Moss
  - Northborn Scars
  - Northfire's Skidmarks
