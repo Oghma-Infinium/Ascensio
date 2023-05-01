@@ -227,7 +227,6 @@
  - Oblivion-like Loading Menu
  - Particle Lights for ENB - Nordic Ruins Candles
  - Pfuscher's Highland Cow
- - Pfuscher's Mudcrabs
  - Pfuscher's Waterplants
  - Reach Shrub Redone
  - Remove Hanging Moss from Trees
