@@ -47,7 +47,7 @@
 
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 people, who care a little bit too much about visuals, to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience.  
+Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience.  
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
