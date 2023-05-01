@@ -159,11 +159,10 @@
  - Natural Font Overhaul
  - Natural Waterfalls
  - Navigator - Navmesh Fixes
- - Oblivion INteraction Icons
+ - Oblivion Interaction Icons
  - Praedy's Castle Volkihar
  - Praedy's College of Winterhold
  - Pristine Vanilla Movement
- - Project Ja-Kha'jay
  - Reverie - Female Skin
  - Rally's Bugs
  - Rally's Bugs in Jars
@@ -174,7 +173,6 @@
  - SB's Fixed Windhelm Entrance
  - Scarified Dunmer Overhaul
  - Serana Doll Replacer for Bloodchill Manor
- - Sexier Vanilla - Guards
  - Shaders of Solstheim
  - Silver Armor and Weapons Retexure
  - Silver Objects SMIMed
