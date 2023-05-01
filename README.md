@@ -59,13 +59,20 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 > Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS. In the future this will be updated depending on feedback received.
 
 
-| Spec Category | My Specs (1080p) | Recommended (1080p) |
-|     :---:    |     :---:     |     :---:     
-| **CPU**   | i7-9700k |  ??? |
-| **Video Card**    | RTX 2070s | ??? |
-| **Ram**    | 32gb (2x16) | 16gb (2x8) |
-| **Storage**    | 980 NVMe | SATA SSD |
+**My Specs (1080p):**
+- i7-9700k
+- RTX 2070s
+- 32GB Ram (2x16)
+- 980 NVMe
 
+**Recommended Specs (1080p)**
+- ???
+- GPU with at least 6GB of VRAM
+- 16GB RAM
+- SATA SSD
+
+
+**Modlist Size:**
 - Downloads: 117 GB
 - Install: 130 GB (actual final size may vary)
 - **TOTAL:** 248 GB
