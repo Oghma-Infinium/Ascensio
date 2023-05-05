@@ -43,16 +43,17 @@
   - [Removing the Modlist](#removing-the-modlist)
   - [Contact](#contact)
   - [Credits and Thanks](#credits-and-thanks)
-
-
+---
 ## Introduction
 
 Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience. 
 
-The minimal gameplay changes within the list are nothing major and consist of mods such as True Directional Movement, animation replacers to fix jank vanilla animations, and unofficial patches, such as USSEP, to fix game exploits. If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
+The minimal gameplay changes within the list are nothing major and consist of mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614), [Pristine Vanilla Movement](https://www.nexusmods.com/skyrimspecialedition/mods/66635) to fix janky vanilla movement, and unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed here. [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
 
 ### System Requirements
 
@@ -74,18 +75,22 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 **Modlist Size:**
 - Downloads: 117 GB
-- Install: 130 GB (actual final size may vary)
+- Install: 131 GB (actual final size may vary)
 - **TOTAL:** 248 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
-
+---
 ## Installation
 
 Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
 
+---
+
 ### Pre-Installation
 
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
+
+---
 
 #### Installing Microsoft Visual C++ Redistribution Package
 
@@ -93,7 +98,7 @@ These steps are only required for installing the modlist for the first time. Man
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  3. Right click on Skyrim SE and click on properties, untick the "Enable Steam Overlay while in-game."
  4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP. IF YOU DO SO WABBAJACK WILL FAIL.**
-
+---
 #### Pagefile and crash prevention
 
 Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
@@ -115,6 +120,8 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
  14. Click *OK*
  15. Restart your computer in order for your new pagefile to take effect.
 
+---
+
 #### Setting Shader Cache Size
  Additionally, if you have an NVIDIA GeForce Graphics Card, please do the following:
  This step is **optional** but can provide some extra stability.
@@ -127,9 +134,13 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
  6. You may exit out of the application.
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
 
+---
+
 #### Steam Setup
 
  If you have your Steam Library in Program Files, read [this](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) and move it elsewhere. Locations such as Desktop, Documents, Downloads, OneDrive, etc. will cause issues with installing and playing the list.
+
+---
 
 #### Game Language
 
@@ -139,6 +150,8 @@ The English Steam version of Skyrim is the only supported version. I understand 
  2. Click *Properties*
  3. Click *Language*
  4. Set the Language to English.
+
+---
 
 #### Installing Creation Club Content
 
@@ -152,12 +165,14 @@ The English Steam version of Skyrim is the only supported version. I understand 
  6. Wait for the download process to complete. Do **not** Alt-Tab during this process as it will cause the download to fail and you will have to start over again.
  7. Proceed with the rest of the installation.
 
-
+---
 ### Wabbajack Installation
 
 #### Installing Wabbajack
 
 Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) from the Wabbajack Github. Extract the contents of the Wabbajack archive and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
+
+---
 
 #### Downloading and Installing Ascensio
 
@@ -173,6 +188,8 @@ Downloading and installing Ascensio can take a while depending on your internet 
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
+
+---
 
 ### Problems with installation
 
@@ -193,16 +210,20 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
 
 - Unable to download `Data_ccXXXXX.bsa` or `*Data_ccXXXXX.esm`:
-	- This error means Wabbajack is unable to hash your creation club content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely Bethesda has updated these files. If this is the case, please wait for the announcement ping for a new release on our discord server before continuing to download the list. 
+	- This error means Wabbajack is unable to hash your creation club content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely Bethesda has updated these files or I messed up somewhere. If this is the case, please wait for the announcement ping for a new release on our discord server before continuing to download the list. 
 
 - Unable to download `Skyrim_Default.ini`:
   - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
+
+---
 
 ## Post-Installation and Optional Setup
 
 ### Game Folder
 
 Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Acsensio folder.
+
+---
 
 ### Antivirus Exceptions
 
@@ -222,11 +243,14 @@ If you use Windows Defender, it is advised that you set up an exception for the 
     - Nemesis Unlimited Behavior Engine.exe (`[Path to Modlist]\mods\Project New Reign - Nemesis Unlimited Behavior Engine\Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe`)
     - Synthesis.exe (`[Path to Modlist]\tools\Synthesis\Synthesis.exe`)
 
+---
+
 ## Playing the List
 
 ### Starting the Game
 
 Head over to the installation folder of `Ascensio`, locate an executable named `ModOrganizer.exe` and launch it.
+
 
 #### Optional Addons 
 - **(OPTIONAL)** For those of you that prefer Patrician ENB instead of Rudy ENB, there is an optional profile I included that allows you to switch to Patrician ENB.
@@ -238,8 +262,10 @@ Head over to the installation folder of `Ascensio`, locate an executable named `
 - **(OPTIONAL)** At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
   
 - **(OPTIONAL)** At the bottom of the left pane in MO2, there is a `Performance Options` separator you can expand. If you're struggling with performance, then feel free to tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Perf Synthesis Output` for the ENB Profile you're using. Finally, disable the original DynDOLOD Output and the original Synthesis Output.
-  
+
 After you have picked your preferred ENB profile and gone through the optionals, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
+
+---
 
 ## Updating the modlist
 
@@ -248,6 +274,8 @@ Before updating, please check the [changelog](https://github.com/Oghma-Infinium/
 Updating is like installing the list. Simply make sure your install/downloads paths are the same wihtin Wabbajack and tick on the `overwrite installation` button.
 
 **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
+
+---
 
 ### Tweaking the Game Settings
 
@@ -274,6 +302,8 @@ AOAmount=1.5
 AOAmountInterior=0.5  
 ColorfulMix=true
 
+---
+
 #### BethINI
 
 Before running BethINI please make sure that your paths are correctly set within the `Setup` tab.
@@ -291,6 +321,8 @@ To squeeze out some more FPS, tweak the following value in the `Detail` tab with
 - `Ambient Occlusion`: Either use this version within BethINI or the ENB version. The ENB version is more intensive. **Do not have both turned on.**
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
 
+---
+
 If you want to tweak your ENB further to improve performance, consider looking at Annakin's [ENB Tips Guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md). 
 
 To quote her, here is a short answer to improve performance with an ENB turned on:
@@ -304,6 +336,8 @@ To quote her, here is a short answer to improve performance with an ENB turned o
 > - Uncheck `Detailed Shadows`
 > - Uncheck `Complex Grass Collision`
 > - Uncheck `Complex Grass`
+
+---
 
 ## Removing the Modlist
 Simply delete the folder. Congratulations, you have uninstalled Ascensio.

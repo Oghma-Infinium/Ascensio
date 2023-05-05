@@ -10,11 +10,92 @@
 ---
 
 # Changelog
+  - [2.0.1](#201)
   - [2.0.0](#200)
   - [1.1.2](#112)
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 2.0.1
+
+### Info
+**This update is save game compatible.**
+- Added a valid race flag to some argonian hairstyles that showed up for humanoids
+- Cleaned up leftover downloads from previous versions 
+- Disabled `Praedy's MageStatueFX.esp` due to visual bugs
+  > If continuing a save and you get a warning due to this plugin, this is fine and you can ignore it.
+- Fixed loading screens not displaying the proper messages
+- Fixed missing textures for some KS Hairdos
+- Fixed some file overwrites for the Ancient Falmer Armor
+- Fixed the Volkihar Family (Serana, Harkon, and Valerica) using vanilla vampire eye meshes
+- Patched Praedy's Chantry of Auriel so that JS' Initiate Ewer is used on the pedestals
+- Patched some meshes between between Praedy's Chantry of Auriel and Lux
+- Removed all ugly grass in the Soul Cairn
+
+<Details>
+
+### Updated
+- Ascensio - Custom Vampire FaceGen
+- A.S.S (addon to Immersive Icons)
+- B.O.O.B.I.E.S (aka Immersive Icons)
+- ENB Light Inventory Fix
+- Fancy Sleeping Tree Replacer
+- Salt and Wind - KS Hairdos
+
+### Added
+ - ALT - The Snow Elves Throne
+ - Auriel's Chantry HD - Parallax
+ - Castle Volkihar HD - Parallax
+ - CC Camping - Embers XD patch
+ - College of Winterhold HD - Parallax
+ - Desaturated ElSopa Dummies
+ - DLC2dunFrostmoonTriggerScript Optimization
+ - DLC2TribalWerebearScript Fix
+ - ElSopa - Quivers Resized (10% Version)
+ - Even More Eyes by Koralina
+ - Falmer Armors and Weapons Retexture
+ - Feral Eyes
+ - FormList Manipulator 
+ - FYX - 3D Coal in Shovel (ElSopa's Shovel Version)
+ - Gildergreen Roots Removed
+ - IWAT's Puddles
+ - IWAT's Hag Claw and Hawk Beak
+ - IWAT's Dragon Skeleton, Dragon Scales, and Dragon Bones
+ - Koralina's Makeup Tweaks
+ - Less Ridiculous Arcane Archer Quivers
+ - Minedoors Redone
+ - Minedoors Redone - Xtudo's Version
+ - No More Reach Mountain Moss
+ - Object Categorization Framework 
+ - Phenomenally Enriched and Nuanced Ingredients for SkyUI (addon for B.O.O.B.I.E.S.)
+ - Riekling Spears Revamped
+ - SkyHUD
+ - Skyrim 2020 - Riften Ratway
+ - Slordar's Body Freckles
+ - Stamina of Steeds
+ - The Soul Cairn HD - Parallax
+ - THICC (The Handy Icon Collection Collective)
+ - True Directional Movement - Tail Animation Fix
+ - Vampire Lord Retextured (Demonic)
+ - WeldingMans Smelter with the EmbersXD Patch
+ - Whiterun Bench Replacer
+
+### Removed
+- Misc ENB Light Effects - ElSopa Quivers Redone
+  > ElSopa's Quivers Resized overwrites this mesh with an ENB Light version of this mod
+- Praedy's Paragon Gems
+- Paragon Gems ENB Light Patch
+  > Both of the mods above are included with Praedy's Chantry of Auriel AIO
+- Oil - Xtudo's Version
+- Puddles - Xtudo's Version
+- IWAT's Charcoal and Coal
+- Better Imperial Forts
+- Skyrim 3D Misc - Buckets
+- Icy Mesh Remaster - ENB Addon
+  > Had flickering issues. Willing to add this mod back once they're resolved
+
+</Details>
 
 ## 2.0.0
 
