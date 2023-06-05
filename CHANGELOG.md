@@ -10,12 +10,261 @@
 ---
 
 # Changelog
+  - [2.1.0](#201)
   - [2.0.1](#201)
   - [2.0.0](#200)
   - [1.1.2](#112)
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 2.1.0 `(Unreleased)`
+
+### Info
+**This update is not save game compatible.**
+
+ *Please make sure you backup any personal load order changes you want to keep, such as the modlist.txt or loadorder.txt files, and delete the `Ascensio/profiles` folder before updating!!!*
+  
+  - Removed all *paid* AE DLC content. The list only requires the *free* Creation Club content now. I was very unhappy with the retextures available for the paid CC and I cannot quality check each CC addon for consistency with the list without losing my sanity on how bad they look. If you dislike this change, feel free to stay on your current version of the list, but I offer no support for previous versions.
+  - Switched from the *Rudy/Solas* profile setup to *NAT/Solas*. Again, if you dislike this change, feel free to stay on your current version of the list.
+  - Did a bunch of asset reordering and load order tweaks
+  - Downsized some textures from 4K to 2K
+  - Fixed Daedric Rings missing gem textures
+  - Fixed Husky meshes looking off
+  - Fixed missing eye textures for horses
+  - Fixed some NPCs being bald
+  - Patched some of the animal mods in the list with custom fluffworks patches
+
+<Details>
+
+### Updated
+- Assorted Mesh Fixes
+- BeastHHBB - Player Character Only
+- Cathedral 3D Mountain Flowers - BOS
+- Embers XD
+- Faster HDT-SMP
+- Icy Mesh Remaster
+- Illustrious Whiterun
+- LOD Model Library
+- Lux
+- Lux Via
+- Modular Armory
+- Object Categorization Framework
+- Praedy's Chantry of Auriel
+- Praedy's Elder Scroll and Elder Council Amulet Replacer
+- Praedy's Repository
+- Real Dwemer Pipes
+- Sowables of Skyrim - Cabbages
+- Sowables of Skyrim - Leeks
+- Sowables of Skyrim - Potatoes
+- Unofficial Skyrim Modder's Patch
+- Unofficial Skyrim Special Edition Patch
+
+### Added
+ - 2K Dark Brotherhood Gear Retexture
+ - 2K Executioner's Block - Less Saturation
+ - 2K Rueful Axe
+ - 2K Sanguine Rose
+ - A collection of mesh patches by Andrias Bartlett
+ - Ancient Nord Armors and Weapons Retexture
+ - Animated Ice Floes
+ - Animated Ivy
+ - ArteFakes (Aljo's Reduced Cut)
+ - Bard Instruments Mostly - Sing Rarely
+ - Better Browner Bread
+ - Better Ladder UV Mapping
+ - Better Reach Trees
+ - Betty Netch
+ - Black Bow Of Fate Retexture
+ - Cathedral - 3D Grass Library
+ - Cathedral - 3D Solstheim Grass
+ - Classic Paralysis
+ - Daedric Shrines - Azura - ENB Light
+ - Dawnguard Armors and Weapons Retexture
+ - Dimmer Apocrypha Smoke
+ - DLC2PillarBuilderActorScript Tweak
+ - Dragon Glyphs HD
+ - Dual Casting Fix
+ - dunPOISoldiersRaidOnStart Script Tweak
+ - Dwemer Gates Don't Reset
+ - Eerie Ectoplasm
+ - Eldergleam Sap
+ - ElSopa - Talos Statue HD
+ - ENB Lights for Effect Shaders
+ - ENB Particle Lights and Heat Distortion for Praedy's Lava
+ - ENB Particle Lights for Alchemy and Enchanting Tables
+ - Enhanced Landscapes - Dead Marsh Standalone
+ - Equip Enchantment Fix
+ - EVE - Ice Skating Fixed
+ - Executioner Axe UHD
+ - Far Object LOD Improvement Project SEE
+ - Ferryman - Clothing by Xtudo
+ - Fixed Beggar Clothing Meshes
+ - Fluffy Wall Mounted Animal Trophies
+ - FYX - 3D Stockades
+ - FYX - Candlehearth Hall Chimney
+ - FYX - Riften Canal and Round Posts
+ - FYX - Vanilla Table Replacer
+ - Glimmering Glow Dust (Blue Version)
+ - Golden Ship Model Replacer
+ - gutmaw's Snazzy Furniture
+ - Hanaisse's Ingredients ENB Light Patch
+ - HD Reflective Ebony Armor and Weapons
+ - HD Reworked Dogs
+ - Hearthefire BYOH Mesh Fixes
+ - Husky HD Recolor - Fluffworks Version
+ - Illustrious Whiterun - Alt Stonefloor
+ - Improved Dwemer Glass - USEEP Patch (ENB Lights Version)
+ - Improved Theater mesh
+ - IWAT's Dragon Skeleton, Dragon Bones and Dragon Scales Retexure
+ - IWAT's Falmer Texture Overhaul
+ - IWAT's Nordic Murals
+ - IWAT's Tel Mithryn Replacer
+ - Jump Behavior Overhaul
+ - Kanj's Skull of Corruption
+ - Kyoe's Bang'n Brows PLUS PLUS
+ - Less Shiny Bloody Bones for Praedy's Skeleton Replacer HD
+ - Maevan2's Eyebrows with the High Poly Head Patch
+ - Markarth LOD Unlock
+ - Medieval Blended Roads
+ - Misc SMIM Mesh Fixes
+ - Mists of Tamriel - NAT ENB Patch
+ - NAT ENB with the PRT Compatibility Patch
+ - NAT.ENB III - Natural and Atmospheric Tamriel
+ - Nightingale Armors and Weapons Retexture
+ - No Flat Rubble
+ - No More Blinding Fog
+ - Nordic Barncle Redone
+ - NosoFestive Spaghetti's Merged
+ - NPCs Ain't Hachikos
+ - Pfusher's Addons - Medium Quality
+ - Praedy's Falmer Eye Gemstone
+ - RaceMenu Player Rotation
+ - Raven Rock Building Tweaks
+ - Reach Tree Branch Remover
+ - Real Rabbits HD - SPID
+ - Red Mountain Plume Visible from Skyrim
+ - Remember Lockpick Angle
+ - Resplendent Royals
+ - Rudy HQ - More Dramatic Red Mountain Plume
+ - RYFTEN - Consistency of Windows in Riften
+ - Savage Skyrim (Meshes Only)
+ - Scimitar Replacer SE
+ - Sigils of Skyrim - Banners
+ - Silly Level of Detail - Potions and Poisons
+ - Silly Level of Detail - Wine Cellar
+ - SkyFix SE - HD Blacksmith Signs
+ - Skyrim 3D Driftwood
+ - Skyrim Remastered Metal Cages and SMIM Imperial Jails
+ - SkyUI - 3D Item Offset Fix
+ - Spaghetti's Solstheim - AIO
+ - Spell Breaker HD with the Animated ENB Light Remesh
+ - Statye of Kynareth
+ - Steaming Hot Soups and Stews
+ - Subdivide and Smooth - Bandit Poles
+ - Subdivide and Smooth - Hagraven Clutter
+ - Surreal Spriggan Sap
+ - TDM Target Fix for Ice Wraiths, Bristlebacks, and Mammoths
+ - Trophy Pedestal Mesh Fix
+ - Unique Uniques
+ - Univeral Cured Serana Eye Fix
+ - Vampire Lord Demonic Retexture
+ - Verlevi's Animation Replacers (Leviathan, Goetia, and Vanargand Animations)
+ - Volatile Void Salts
+ - Whazzup I got a big hood - Mage Hood Mesh Edit
+ - Whiterun Watchtower Doesn't Start Broken
+ - WIDeadBodyCleanupScript Crash Fix
+ - Windhelm Fake Windows Fix
+ - Wizkid's Hagraven Clutter and Bones
+ - World Encounter Hostility Fix
+
+### Removed
+- AL's HMB Facegen for AE
+- Amidianborn - Armors
+- Amidianborn - Weapons
+- AmidianBorn Matching CC Draugr Weapons
+- Ancient Amidianborn Dwemer Metal Armory
+- Ancient Draugr Weapon Retexture
+- Another Player Rotation Mod
+- Ayleid Ruins ENB Light
+- Borkel's Remiros Ebony Blade HD
+  > Ebony Blade is covered in Modular Armory
+- Brows by Hvergelmir
+  > Looked out of place with other eyebrow mods in the list
+- Cathedral Weathers
+- CC Bone Colossus Skeleton Fix
+- CC Camping - Embers XD Patch
+- CC Elven Crossbow - Mesh Fix
+- CC Necromantic Grimoire Hooded Skull Patch for Skeleton Replacer HD
+- Creation Club Arrows - ENB Light Addon
+- Dlizzio's Mesh Fixes
+  > I practically used like no meshes from this after hiding overwrites
+- DragonStone 2K
+  > Included in Praedy's Repository
+- Ebony Armor and Weapons Retexture and its Modular Armory Patch
+  > Not a fan of how it looks
+- ElSopa's Glorious Dummies
+- ENB Lights for Aetherium Shards
+  > Included in Improved Dwemer Glass - USSEP Patch
+- Enead Banners
+- Ethreal Clouds
+- ferrari365's Script Fixes
+  > Most of them are now included in USMP
+- Fluffworks - CC Pets of Skyrim Patch
+- FYX - Smooth Wells - Alternate Textures Patch
+- Ghosts of the Tribunal - Particle Lights for ENB Addon
+- Grass Fixes for Creation Club Mods
+- HD Executioner's Block
+- High Poly Solstheim Mushroom Trees
+  > Had awful seams and wasn't a fan of the UV mapping
+- HQ Solitude
+- Iconic's Gray Fox Bust
+- Indigo the Cat
+- Individual Pfuscher mods were removed due to being included in Pfuscher's AIO Addon mod (Riften Canals, Dirtcliffs with Ivy, Goat with Bell, etc.)
+- IWAT's Blackreach Clutter
+- JS Rumpled Rugs
+- Kanjs - Arms of Chaos
+- Kanjs - Gallow Halls
+- KG's Elves Ear Replacer
+- Less Ridiculous Arcane Archer Quivers
+- Masks of the Dovah Sonaak and its Modular Armory Patch
+  > In favor of Praedy's Dragon Priest Masks 
+- Mists of Tamriel for Rudy Cathedral
+- Modular Armory - Unique Horksbane
+  > Covered in Artefakes
+- Myrwatch - Editable Home Cells (Cell Bug Workaround)
+- Myrwatch - Editable Home Cells - USCCP Patch
+- Organic Riften Leaves
+- Praedy's Gemstone Replacers HD
+- Pristine Vanilla Movement
+- Rally's Solstheim Plants
+  > Included in Rally's Solstheim AIO
+- Renthal's Waterwheel Remastered
+  > In favor of Pfuscher's Waterwheel
+- Resplendent Queen Bee Statue
+  > Covered by Praedy's Repository
+- Resurgence Armory - CC Artifacts
+- Rudy ENB for Cathedral Weathers
+- Rustic Reliefs
+- S.N.O.W.B.E.A.R.S
+- SC Horses - Wild Horses CC Patch
+- Security Overhaul SKSE - The Cause Chests Secured
+- Serana Doll Replacer for Bloodchill Manor's Vampire Doll
+- Slaughterfish Eggs are Fish Eggs
+- Spaghetti's Raven Rock
+  > Included in Spaghetti's Solstheim AIO
+- Sunder and Wraithguard - Editable Vault Cell
+- Sunder and Wraithguard - Editable Vault Cell - USCCP Patch
+- The Cause - Ayleid Crystals Retexture
+- Unique Solstheim Grass
+- Unofficial Skyrim Creation Club Content Patch
+- Vampire Lord Retextured
+- Vibrant Weapons
+- WENB Shades USSEP Patch
+  > Was redundan with recent versions of W4ENB
+- Xtudo's Daedric Shrines - Azura - Vanilla Replacer
+
+</Details>
 
 ## 2.0.1
 
