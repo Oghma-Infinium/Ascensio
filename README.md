@@ -230,9 +230,9 @@ Head over to the installation folder of `Ascensio`, locate an executable named `
 #### Optional Tweaks
 This section will cover the following optional tweaks that are included as a part of the modlist. Please note that if you do any of these tweaks, it is in your best interest to share this information when reporting any potential bugs that you encounter when playing the modlist.
 
-1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weather. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB
+1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB
   
-2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Ascensio - Perf Synthesis Output for [ENB Profile you are using]` mod. Finally, disable the original DynDOLOD Output and the original Synthesis Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD outputs as well.
+2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Ascensio - Perf Synthesis Output for [ENB Profile you are using]` mod. Finally, disable the original DynDOLOD Output and the original Synthesis Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD output as well.
 
 3. **Insects Begone** - At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
   
@@ -316,7 +316,7 @@ To quote her, here is a short answer to improve performance with an ENB turned o
 ---
 
 ## Removing the Modlist
-Simply delete the folder. Congratulations, you have uninstalled Ascensio.
+Simply delete the Ascensio folder. Congratulations, you have uninstalled Ascensio.
 
 ## Contact
 
@@ -327,7 +327,7 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 - _YOU_ for reading this :D
 - Curly for the original iteration of Ascensio!
 - The Waking Dreams Dev team <3
-- JustThatKing for his wonderful visual academy that jumpstarted this list
+- JTK for his visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team
 - Noggog for Mutagen and Synthesis
