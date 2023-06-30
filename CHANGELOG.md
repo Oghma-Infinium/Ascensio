@@ -128,7 +128,6 @@
  - ENB Lights for Effect Shaders
  - ENB Particle Lights and Heat Distortion for Praedy's Lava
  - Enhanced Landscapes - Dead Marsh Standalone
- - Equestrian - Realistic Eyes Replacer
  - Equip Enchantment Fix
  - EVE - Ice Skating Fixed
  - Falchion as Bloodscythe and Soulrender
@@ -212,9 +211,9 @@
  - Subdivide and Smooth - Bandit Poles
  - Subdivide and Smooth - Hagraven Clutter
  - Surreal Spriggan Sap
- - TDM First PersonTarget Fix for Ice Wraiths, Bristlebacks, and Mammoths
+ - TDM First Person Target Fix for Ice Wraiths, Bristlebacks, and Mammoths
  - Unique Uniques
- - Univeral Cured Serana Eye Fix
+ - Universal Cured Serana Eye Fix
  - Vampire Lord Demonic Retexture
  - Visage of Mzund - Xtudo's Version
  - Volatile Void Salts
@@ -301,7 +300,6 @@
 - Praedy's Gemstone Replacers HD
 - Praedy's Castle Volkihar - Parallax
 - Praedy's Chantry of Auriel AIO - Parallax
-- Pristine Vanilla Movement
 - Quality CubeMaps - HD Cube Maps
 - Rally's Crates
 - Rally's Solstheim Plants
