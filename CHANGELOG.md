@@ -25,18 +25,18 @@
 
  *Please make sure you backup any personal load order changes you want to keep, such as the modlist.txt or loadorder.txt files, and delete the `Ascensio/profiles` folder before updating!!!*
   
-  - Removed all *paid* AE DLC content. The list only requires the *free* Creation Club content now. I was very unhappy with the retextures available for the paid CC and I cannot quality check each CC addon for consistency with the list without losing my sanity on how bad they look. If you dislike this change, feel free to stay on your current version of the list, but I offer no support for previous versions.
+  - Removed all *paid* AE DLC content. The list only requires the *free* Creation Club content now. I was very unhappy with the retextures available for the paid CC and I cannot quality check each CC addon for consistency with the list without losing my sanity on how bad they look :(. If you dislike this change, feel free to stay on your current version of the list, but I offer no support for previous versions.
   - Switched from the *Rudy Cathedral/Solas* profile setup to *Rudy Cathedral/NAT ENB*. Again, if you dislike this change, feel free to stay on your current version of the list.
   - Did a bunch of asset reordering and load order tweaks
   - Downsized some textures from 4K to 2K
-  - Fixed Abandoned Shack interior (ty aljo)
+  - Fixed Abandoned Shack's interior (ty aljo)
   - Fixed Daedric Rings missing gem textures
   - Fixed Husky meshes looking off
   - Fixed missing eye textures for horses
   - Fixed some NPCs being bald
   - Patched some of the animal mods in the list with custom fluffworks patches
   - Patched some more meshes from Praedy's Chantry of Auriel with Icy Mesh Remaster
-  - Removed all NPC overhauls except for Nordic Faces, Simple Children, and Ascensio's Custom Facegen. I plan on adding them back in at a later update which is why I won't be listing them as removed below
+  - Removed all NPC overhauls except for Nordic Faces, Simple Children, and Ascensio's Custom Facegen. I plan on adding them back in at a later update that covers NPCs which is why I won't be listing them as removed below
 
 <Details>
 
