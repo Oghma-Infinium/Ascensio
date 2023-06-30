@@ -12,43 +12,39 @@
 
 **Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
 
-***Ascensio requires the full AE upgrade, which means you must purchase the AE edition of the game to install the modlist!***
+- [Introduction](#introduction)
+  - [System Requirements](#system-requirements)
+- [Installation](#installation)
+  - [Pre-Installation](#pre-installation)
+    - [Pagefile and crash prevention](#pagefile-and-crash-prevention)
+    - [Setting Shader Cache Size](#setting-shader-cache-size)
+    - [Steam Setup](#steam-setup)
+    - [Game Language](#game-language)
+  - [Wabbajack Installation](#wabbajack-installation)
+    - [Installing Wabbajack](#installing-wabbajack)
+    - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
+  - [Problems with installation](#problems-with-installation)
+- [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
+  - [Game Folder](#game-folder)
+  - [Antivirus Exceptions](#antivirus-exceptions)
+- [Playing the List](#playing-the-list)
+  - [Starting the Game](#starting-the-game)
+    - [Optional Tweaks](#optional-tweaks)
+- [Updating the modlist](#updating-the-modlist)
+  - [Tweaking the Game Settings](#tweaking-the-game-settings)
+    - [Performance INI Options](#performance-ini-options)
+    - [BethINI](#bethini)
+- [Removing the Modlist](#removing-the-modlist)
+- [Contact](#contact)
+- [Credits and Thanks](#credits-and-thanks)
 
-# Contents
-- [Contents](#contents)
-  - [Introduction](#introduction)
-    - [System Requirements](#system-requirements)
-  - [Installation](#installation)
-    - [Pre-Installation](#pre-installation)
-      - [Installing Microsoft Visual C++ Redistribution Package](#installing-microsoft-visual-c-redistribution-package)
-      - [Pagefile and crash prevention](#pagefile-and-crash-prevention)
-      - [Setting Shader Cache Size](#setting-shader-cache-size)
-      - [Steam Setup](#steam-setup)
-      - [Game Language](#game-language)
-      - [Installing Creation Club Content](#installing-creation-club-content)
-    - [Wabbajack Installation](#wabbajack-installation)
-      - [Installing Wabbajack](#installing-wabbajack)
-      - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
-    - [Problems with installation](#problems-with-installation)
-  - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
-    - [Game Folder](#game-folder)
-    - [Antivirus Exceptions](#antivirus-exceptions)
-  - [Playing the List](#playing-the-list)
-    - [Starting the Game](#starting-the-game)
-      - [Optional Addons](#optional-addons)
-  - [Updating the modlist](#updating-the-modlist)
-    - [Tweaking the Game Settings](#tweaking-the-game-settings)
-      - [Performance INI Options](#performance-ini-options)
-      - [BethINI](#bethini)
-  - [Removing the Modlist](#removing-the-modlist)
-  - [Contact](#contact)
-  - [Credits and Thanks](#credits-and-thanks)
+
 ---
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide minimal gameplay changes in favor of an expansive graphical package that offers custom recolors for many mods and a plethora of handpicked assets for a consistent visual experience. 
+Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide an expansive graphical package that covers animations, offers custom recolors, and a plethora of handpicked assets for an enhanced Skyrim experience.
 
-The minimal gameplay changes within the list are nothing major and consist of mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614), [Pristine Vanilla Movement](https://www.nexusmods.com/skyrimspecialedition/mods/66635) to fix janky vanilla movement, and unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed here. [here](https://loadorderlibrary.com/lists/ascensio-1).
+There are minor gameplay changes within the list, which are nothing drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614), [EVE - Ice Skating Fixed For Real](https://www.nexusmods.com/skyrimspecialedition/mods/55417) and [Pristine Vanilla Movement](https://www.nexusmods.com/skyrimspecialedition/mods/66635) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -90,14 +86,9 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
----
-
-#### Installing Microsoft Visual C++ Redistribution Package
-
  1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 3. Right click on Skyrim SE and click on properties, untick the "Enable Steam Overlay while in-game."
- 4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP. IF YOU DO SO WABBAJACK WILL FAIL.**
+ 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option.
 ---
 #### Pagefile and crash prevention
 
@@ -153,24 +144,11 @@ The English Steam version of Skyrim is the only supported version. I understand 
 
 ---
 
-#### Installing Creation Club Content
-
- If you have never installed the Creation Club Content before, please do the following:
- 1. Purchase the *Skyrim Anniversary Edition* Upgrade from Steam. If you do not do this, you can not install or play the list. 
-   > **There is no work around for this and pirating this content will not work. If you pirate the content and come asking for assistance in the discord server, you will be banned.**
- 2. In your Steam Library, right-click on the menu entry for Skyrim, select `Properties` and then select `Local Files`. Click `Verify Integrity of Game Files` and wait.
- 3. Once this is completed, launch the game once from Steam. You may receive a prompt that your settings were detected or not detected, this does not matter. Simply open the launcher and start the game.
- 4. Once the intro logo finishes displaying and the Skyrim logo appears, you should receive a prompt to "Download All Content?" Accept this option.
- 5. If you did not receive a prompt to download, select the Creation Club option from the menu, and you should find a "Download All" prompt at the bottom. If this message does not appear, you have not purchased the $20 Upgrade. Go back to Step 1.
- 6. Wait for the download process to complete. Do **not** Alt-Tab during this process as it will cause the download to fail and you will have to start over again.
- 7. Proceed with the rest of the installation.
-
----
 ### Wabbajack Installation
 
 #### Installing Wabbajack
 
-Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) from the Wabbajack Github. Extract the contents of the Wabbajack archive and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
+Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) from the Wabbajack Github. Extract the contents of the Wabbajack archive and place it in a folder such as `C:\Wabbajack` for example. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
 
 ---
 
@@ -200,7 +178,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - **X** is not a whitelisted download:
 
-	 - This may happen when I update the modlist. Please check if there is a new update or wait until you see a release ping.
+	 - This may happen when I update the modlist. Please check if there is a new update or wait until you see a release ping on the discord server!
 
 - Wabbajack could not find my game folder:
 
@@ -208,9 +186,6 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Antivirus reports a virus:
 	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
-
-- Unable to download `Data_ccXXXXX.bsa` or `*Data_ccXXXXX.esm`:
-	- This error means Wabbajack is unable to hash your creation club content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely Bethesda has updated these files or I messed up somewhere. If this is the case, please wait for the announcement ping for a new release on our discord server before continuing to download the list. 
 
 - Unable to download `Skyrim_Default.ini`:
   - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
@@ -252,16 +227,17 @@ If you use Windows Defender, it is advised that you set up an exception for the 
 Head over to the installation folder of `Ascensio`, locate an executable named `ModOrganizer.exe` and launch it.
 
 
-#### Optional Addons 
-- **(OPTIONAL)** For those of you that prefer Patrician ENB instead of Rudy ENB, there is an optional profile I included that allows you to switch to Patrician ENB.
-  
-- **(OPTIONAL)** If you do not wish to use the `Emperor Version` of Patrician ENB, the `Normal Version` is included that you may tick on under the `ENB Files` separator.
+#### Optional Tweaks
+This section will cover the following optional tweaks that are included as a part of the modlist. Please note that if you do any of these tweaks, it is in your best interest to share this information when reporting any potential bugs that you encounter when playing the modlist.
 
-- **(OPTIONAL)** At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
+1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weather. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB
   
-- **(OPTIONAL)** At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
+2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Ascensio - Perf Synthesis Output for [ENB Profile you are using]` mod. Finally, disable the original DynDOLOD Output and the original Synthesis Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD outputs as well.
+
+3. **Insects Begone** - At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
   
-- **(OPTIONAL)** At the bottom of the left pane in MO2, there is a `Performance Options` separator you can expand. If you're struggling with performance, then feel free to tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Perf Synthesis Output` for the ENB Profile you're using. Finally, disable the original DynDOLOD Output and the original Synthesis Output.
+4. **Ultrawide Patches** - At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
+  
 
 After you have picked your preferred ENB profile and gone through the optionals, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
 
@@ -281,7 +257,7 @@ Updating is like installing the list. Simply make sure your install/downloads pa
 
 #### Performance INI Options
 
-Here are recommended ini tweaks that you can make in order to potentially improve performance. These files can be found at `[Path to Modlist]\profiles\Ascensio - Patrician ENB` or `[Path to Modlist]\profiles\Ascensio - Rudy ENB (Zangdar's Edit)` depending on the profile you're using.
+Here are recommended ini tweaks that you can make in order to potentially improve performance. These files can be found at `[Path to Modlist]\profiles\Ascensio - NAT ENB` or `[Path to Modlist]\profiles\Ascensio - CW Rudy ENB` depending on the profile you're using.
 
 **Skyrim.ini**  
 >[Display]  
@@ -291,7 +267,7 @@ fSAORadius=800.0000
 fSAOBias=0.5000  
 fSAOValueDiffFactor=0.3000
 
-Some edits can also be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\Patrician ENB` or `[Path to Modlist]\mods\Rudy ENB SE for Cathedral Weathers`.
+Some edits can also be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\NAT.ENB - ENB PRESET` or `[Path to Modlist]\mods\Rudy ENB CW - Zangdar's Edit`.
 
 **ENBSeries.ini**  
 >[EFFECT]  
@@ -313,7 +289,7 @@ Before running BethINI please make sure that your paths are correctly set within
    > example: `F:\Ascensio\Stock Game`
  - **Mod Organizer**: `[Path to Modlist]\ModOrganizer.exe` 
    > example: `F:\Ascensio\ModOrganizer.exe`
- - **INI Path**: `Mod Organizer > Ascensio - Patrician ENB` or `Mod Organizer > Ascensio - Rudy ENB (Zangdar's Edit)`
+ - **INI Path**: `Mod Organizer > Ascensio - NAT ENB` or `Mod Organizer > Ascensio - CW Rudy ENB`
 
 To squeeze out some more FPS, tweak the following value in the `Detail` tab within BethINI.
 
@@ -349,7 +325,7 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 ## Credits and Thanks
 
 - _YOU_ for reading this :D
-- Curly for the original iteration of Ascensio
+- Curly for the original iteration of Ascensio!
 - The Waking Dreams Dev team <3
 - JustThatKing for his wonderful visual academy that jumpstarted this list
 - Bethesda Game Studios
