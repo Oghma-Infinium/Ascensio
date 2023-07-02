@@ -71,7 +71,7 @@
 - Racemenu - Untarnished UI Patch - DRIP Patch
 - Rogue Master Detector
 - The Handy Icon Collection Collective
-- DRIP (Dynamic Racemenu Interfact Patcher)
+- DRIP (Dynamic Racemenu Interface Patcher)
 - Dynamic Armor Variants
 - Dynamic Lowered Hoods
 - Diseases - I4 icon
