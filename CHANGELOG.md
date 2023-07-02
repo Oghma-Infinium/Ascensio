@@ -38,6 +38,7 @@
 - Water for ENB
 - Assorted Mesh Fixes
 - Navigator - Navmesh Fixes
+- Bonemold Armor and Weapons Retexture
 
 ### Added
 - Photo Mode
