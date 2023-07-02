@@ -10,6 +10,7 @@
 ---
 
 # Changelog
+  - [3.1.0](#310)
   - [3.0.0](#300)
   - [2.0.1](#201)
   - [2.0.0](#200)
@@ -17,6 +18,65 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+  
+## 3.1.0
+
+### Info
+
+**This update is not save game compatible.**
+- Misc. load order tweaks
+- Patched some Lux meshes to use SMIM textures
+- Regenerated Synthesis plugins
+- This update was mainly just to clear out some mods that would make the list harder to customize for users and/or leaned more towards gameplay changes than visual changes. Things like the UI should be easier for people to swap out now.
+
+<Details>
+
+### Updated
+- Lux
+- Lux Orbis
+- Kala's Eyes - Improved
+- Water for ENB
+- Assorted Mesh Fixes
+- Navigator - Navmesh Fixes
+
+### Added
+- Photo Mode
+- A Quality World Map
+- Illustrious Whiterun - Alt Stonefloor 2K
+- SkyHUD
+
+
+### Removed
+- Antlers for Bosmer NPCs
+- Untarnished UI
+- Lux Orbis - Illustrious Whiterun - Parallax'd
+- Lux Orbis - Riften of Reverie - Parallax'd
+- Instantly Skip Dialogue NG
+- Sexier Vanilla Guards
+- Oblivion Interaction Icons
+- Inventory Interface Information Injector
+- A.S.S for B.O.O.B.I.ES
+- B.O.O.B.I.E.S (Immersive Icons)
+- P.E.N.I.S for B.O.O.B.I.E.S
+- Object Categorization Framework
+- EVE - Ice Skating Fixed
+- Savage Skyrim
+- Supreme Vampire Lords
+- Wicked Werewolves
+- Remember Lockpick Angle
+- Dwemer Gates Don't Reset
+- NPCs Ain't Hachikos
+- Far Object LOD Improvement Project SSE
+- Racemenu - Untarnished UI Patch - DRIP Patch
+- Rogue Master Detector
+- The Handy Icon Collection Collective
+- DRIP (Dynamic Racemenu Interfact Patcher)
+- Dynamic Armor Variants
+- Dynamic Lowered Hoods
+- Diseases - I4 icon
+
+</Details>
+
 
 ## 3.0.0
 
@@ -75,7 +135,6 @@
 - Praedy's Repository
 - Rally's Textures - Shibui Skyrim Recolor
 - Real Dwemer Pipes
-- Sowables of Skyrim - Cabbages
 - Sowables of Skyrim - Leeks
 - Sowables of Skyrim - Potatoes
 - Stony AF Markarth and Dwemer Ruins
