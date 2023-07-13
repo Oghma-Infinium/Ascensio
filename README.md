@@ -156,13 +156,13 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 
 Downloading and installing Ascensio can take a while depending on your internet connection and computer. To install Ascensio, complete the following steps.
 
-1. Open Wabbajack and click `Browse Modlists`. Then tick on the `Show Unoffical Lists` box in the top right corner. Then pick the `Skyrim Special Edition` from the game filter drop-down box or use the search bar to type in the name of the list.
+1. Open Wabbajack and click `Browse Modlists`. Then pick the `Skyrim Special Edition` from the game filter drop-down box or use the search bar to type in the name of the list.
 2. Press the download arrow on the Ascensio UI card and wait for it to download.
 3. Set the installation folder to be a path such as `C:\Games\Ascensio`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
 > The download location does not need to be on a SSD, but it makes installing faster. The downloads location does not need to be on the same drive as the installation folder path either.
-4. Press the play button to begin.
-5. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again :D
-6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow some of the pointers below or join the [discord server](https://discord.gg/WakingDreams) for support.
+1. Press the play button to begin.
+2. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again :D
+3. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow some of the pointers below or join the [discord server](https://discord.gg/WakingDreams) for support.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
