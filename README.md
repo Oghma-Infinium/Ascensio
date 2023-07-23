@@ -44,7 +44,7 @@
 
 Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide an expansive graphical package that covers animations, offers custom recolors, and a plethora of handpicked assets for an enhanced Skyrim experience.
 
-There are minor gameplay changes within the list, which are nothing drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) and [Pristine Vanilla Movement](https://www.nexusmods.com/skyrimspecialedition/mods/66635) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
+There are minor gameplay changes within the list, which are nothing drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -59,13 +59,13 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 **My Specs (1080p):**
 - i7-9700k
 - RTX 2070s
-- 32GB Ram (2x16)
+- 32GB RAM (2x16)
 - 980 NVMe
 
 **Recommended Specs (1080p)**
 - ???
 - GPU with at least 6GB of VRAM
-- 16GB RAM
+- 16GB RAM (2x8)
 - SATA SSD
 
 
@@ -166,6 +166,7 @@ Downloading and installing Ascensio can take a while depending on your internet 
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
+-  [Elwaps Speedtree](https://mega.nz/file/xUc0zRLY#NYwbmmHOZhpSF2hpV7hMRYejgZsL_MAIVv_DfjK9JRM)
 
 ---
 
@@ -230,9 +231,9 @@ Head over to the installation folder of `Ascensio`, locate an executable named `
 #### Optional Tweaks
 This section will cover the following optional tweaks that are included as a part of the modlist. Please note that if you do any of these tweaks, it is in your best interest to share this information when reporting any potential bugs that you encounter when playing the modlist.
 
-1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB
+1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB profile.
   
-2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and the `Ascensio - Perf Synthesis Output for [ENB Profile you are using]` mod. Finally, disable the original DynDOLOD Output and the original Synthesis Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD output as well.
+2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and then disable the original DynDOLOD Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD output as well. **DO NOT switch DynDOLOD Outputs mid-save**
 
 3. **Insects Begone** - At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
   
@@ -326,7 +327,7 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 
 - _YOU_ for reading this :D
 - Curly for the original iteration of Ascensio!
-- The Waking Dreams Dev team <3
+- The Waking Dreams server <3
 - JTK for his visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team

@@ -10,6 +10,7 @@
 ---
 
 # Changelog
+  - [3.2.0](#320)
   - [3.1.0](#310)
   - [3.0.0](#300)
   - [2.0.1](#201)
@@ -19,6 +20,109 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
   
+  ## 3.2.0
+
+### Info
+
+**This update is not save game compatible.**
+- Misc. load order and asset tweaks
+- Added proper 3D LOD support thanks to Ylikollikas :) List performance will be a bit heavier due to this
+- Fixed wolf meshes (again...)
+- Fixed the disappearing Solitude windmill mesh inside the city
+- Fixed purple ice floe lods
+- Autosaves should be enabled by default now
+- Killcams should function as normal also now
+- Regenerated Synthesis
+- Regenerated LODs
+
+<Details>
+
+### Updated
+- Assorted Mesh Fixes
+- Base Object Swapper
+- Blackreach Bush ENB Light
+- BnP - Female Skin
+- Embers XD
+- Lux
+- Natural Waterfalls
+- Open Animation Replacer
+- Particle Patch for ENB
+- Photo Mode
+- Skyland AIO
+- Snowy Tree Swapper
+- Stronger Swimming Animations
+- Water for ENB
+
+### Added
+- ALT - Crates
+- ALT - Barrels
+- Ancient Falmer Armors and Weapons Retexture
+- DPI Scaling Fix
+- ElSopa - HD Grindstone - Hearthfire Patch
+- ElSopa - HD Medieval Hammer - DLC02 Patch
+- Elwaps Speedtree (For the snow pines only)
+- FYX - Solitude Arch
+- Goetia Animations - Female Walk, Idle, and Run
+- Goetia Animations - Male Walk, Idle, and Run
+- Goetia Animations - Sprint
+- Green Water Cubemap Fix
+- Imperial Metal Replacer Texture
+- Mathy's Meadery Brewer Retexture
+- NPC Stuck in Bleedout Fix
+- Rudy HQ - Falling Leaves and Needles for ENB
+- Scones of Solstheim
+- Security Overhaul - Even More Locks
+- SG Brows
+- Skyland Bits and Bobs - A Clutter Overhaul
+- Skyrim Posts Replacer
+- Spaghetti's Orc Strongholds AIO
+- Survival Stews - SMIM Meshes
+- The Eyes of Beauty - AI Remastered Standalone
+- Vanilla Hair Remake
+- Zero Bounty Hostility Fix
+
+
+### Removed
+- 2K Blacksmith Forge Stone Top Replacer
+- 2K Puddles
+- Animation Motion Revolution
+  > Wasn't needed for anything in the list
+- Archery Target Retexture
+- Better Argonian Horns
+  > Removing these till there's a complete BeastHBB Patch available
+- Better Chests
+  > Didn't cover all types of chest meshes, causing some visual issues with static chests and Hearthfire chests
+- Better Falmer Cave Ceiling Glow
+- Better Wall Basket Feathers
+- ElSopa - Paper HD
+- Even More Eyes by Koralina
+- HD Dark Elf Urns
+- Maevan2's Eyebrows
+- Meeko Reborn
+  > Didn't fit with the rest of the fluffworks dogs in the list
+- More Horns for Argonians
+  > Most of these hairstyles are included in BeastHBB
+- Pristine Vanilla Movement
+  > Caused camera snapping without Smoothcam
+- Rally's Crates
+- Reverie Skin
+- Rustic Clutter Collection
+- Rustic East Empire Company Signage
+- SG Female Brows - Improved
+- Simple Sacks
+- Skyland Common and Upper Furniture
+- Skyland Noble Furniture
+- SLOD - Potions
+- SLOD - Wine Cellar
+- SmoothCam
+  > Felt out of scope for a visual list
+- TB's Metal Chains
+- Vigilance Reborn
+  > Didn't fit with the rest of the fluffworks dogs in the list
+- Weathered Buckets Retexture
+
+</Details>
+
 ## 3.1.0
 
 ### Info
