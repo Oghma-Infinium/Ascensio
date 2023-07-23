@@ -166,7 +166,7 @@ Downloading and installing Ascensio can take a while depending on your internet 
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
--  [Elwaps Speedtree](https://mega.nz/file/xUc0zRLY#NYwbmmHOZhpSF2hpV7hMRYejgZsL_MAIVv_DfjK9JRM)
+- [Elwaps Speedtree](https://mega.nz/file/xUc0zRLY#NYwbmmHOZhpSF2hpV7hMRYejgZsL_MAIVv_DfjK9JRM)
 
 ---
 
@@ -186,10 +186,10 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 	- Either buy the game or go back to the [Pre-Installation](#pre-installation) step.
 
 - Antivirus reports a virus:
-	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
+	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in Windows Defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
 
 - Unable to download `Skyrim_Default.ini`:
-  - This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.
+  - This error means you failed to follow the readme. Go back to the [Game Language](#game-language) section and set your game's language to English.
 
 ---
 
