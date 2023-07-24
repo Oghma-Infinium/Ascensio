@@ -30,6 +30,7 @@
 - Fixed wolf meshes (again...)
 - Fixed the disappearing Solitude windmill mesh inside the city
 - Fixed purple ice floe lods
+- Fixed CTDs when opening display cases
 - Autosaves should be enabled by default now
 - Killcams should function as normal also now
 - Regenerated Synthesis
