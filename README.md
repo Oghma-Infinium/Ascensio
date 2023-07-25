@@ -63,16 +63,16 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - 980 NVMe
 
 **Recommended Specs (1080p)**
-- ???
-- GPU with at least 6GB of VRAM
+- R7 3700x / i5 10600k
+- 3060 Ti / 2070 / 6700 XT
 - 16GB RAM (2x8)
 - SATA SSD
 
 
 **Modlist Size:**
-- Downloads: 120 GB
-- Install: 126 GB (actual final size may vary)
-- **TOTAL:** 246 GB
+- Downloads: ~122 GB
+- Install: ~138 GB (actual final size may vary)
+- **TOTAL:** ~260 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 ---
