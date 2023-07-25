@@ -53,7 +53,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### System Requirements
 
-> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS. In the future this will be updated depending on feedback received.
+> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS, dipping into the 40s in heavily forested areas. In the future this will be updated depending on feedback received.
 
 
 **My Specs (1080p):**
