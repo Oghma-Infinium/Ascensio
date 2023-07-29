@@ -70,9 +70,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 
 **Modlist Size:**
-- Downloads: ~122 GB
-- Install: ~138 GB (actual final size may vary)
-- **TOTAL:** ~260 GB
+- Downloads: ~108 GB
+- Install: ~139 GB (actual final size may vary)
+- **TOTAL:** ~247 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 ---

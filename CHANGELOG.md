@@ -10,6 +10,7 @@
 ---
 
 # Changelog
+  - [3.2.1](#321)
   - [3.2.0](#320)
   - [3.1.0](#310)
   - [3.0.0](#300)
@@ -20,6 +21,45 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
   
+## 3.2.1
+
+### Info
+
+**This update is save game compatible.**
+- Misc. asset order tweaks
+- Disabled the ENB frost lens effect for the Rudy ENB Profile (feel free to enable this again if you'd like)
+- Fixed dead hanging rabbits not disappearing after being harvested
+
+<Details>
+
+### Updated
+- Papyrus Extender
+- Embers XD
+- Assorted Mesh Fixes
+
+### Added
+- SMIM Whiterun Bench Replacer - Dark and Dirty Version
+- SMIM Rabbits Shell Textured - Real Rabbits HD and Wiseman303's Fixes Version
+- Vampire Armors and Weapons Retexture
+- No More Ugly Branches
+- Buy and Sell Torches - Bug Fix
+- Stuck on Screen Load Door Prompt Fix
+- Whiterun Imperial Camp Fixes
+- Simple Snow Improvements - Solstheim Ruins
+- Icy Windhelm - Throne Fix
+- Nocturnal's Birds Replacer
+- Hanging Dead Pheasants Replacer
+- Optimized Meshes - Hanging Dead Pheasants Replacer
+
+### Removed
+- SMIM Rabbits Shell Textured - Real Rabbits HD Version
+- Gildergreen Roots Removed
+- Reach Tree Branch Remover
+- Sweet Snowberries
+- ALT - Barrels
+
+</Details>
+
   ## 3.2.0
 
 ### Info
