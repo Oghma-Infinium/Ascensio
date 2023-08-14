@@ -10,6 +10,7 @@
 ---
 
 # Changelog
+  - [3.3.0](#330)
   - [3.2.1](#321)
   - [3.2.0](#320)
   - [3.1.0](#310)
@@ -21,6 +22,93 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
   
+## 3.3.0
+
+### Info
+
+**This update is probably save game compatible.**
+
+- I can't confirm this update is save safe but **if you wish to continue your save, make sure you are not in the middle of having an adopted child move into your house**
+- Disregard the warnings about missing plugins, these in particular should be safe
+- Added performance edits of both ENB profiles under the `Performance Mode` separator in MO2. Feel free to tick these on if you find yourself struggling with performance a bit
+- Fixed the freeze that can occur in Southfringe Sanctum
+- Regenerated Synthesis plugins
+
+<Details>
+
+### Updated
+- Animated Forge Water
+- Assorted Mesh Fixes
+- Bodyslide and Outfit Studio
+- Embers XD
+- ENBSeries Binaries
+- ERM - DynDOLOD Addon
+- Flute Animation Fix
+- Font Overhaul
+- FormList Manipulator
+- Keyword Item Distributor
+- Lux Orbis Misc Patches
+- Navigator - Navmesh Fixes
+- Simplicity of Snow
+- Skyland Bits and Bobs
+- Unique Markarth Doors
+- Water for ENB
+- Zero Bounty Hostility Fix
+
+### Added
+- 4K Sovngarde Ox
+- Adoption Spouse and Moving Fixes
+- Ahzidals Enchanted Armor
+- Basic XPMSSE Assets
+- Better Fur - Fine Clothes
+- Better Fur - Merchant's Hat
+- Better Fur - Wedding outfits
+- Chillrend Replacer
+- Drengin's Blue Palace - Mesh Only Replacer
+- Followers are Sneaky - Synthesis Patcher (thanks iam 😄)
+- FYX - Water Mesh Optimization
+- FYX - Windhelm Graveyard
+- Guards and Stormcloaks Armors Retexture
+- HDT-SMP Force Fields
+- Jewels of the Nords
+- Jewels of the Nords - Gemling Queen Jewelry Patch
+- Mage Armor - Flesh Replacer (No Runes Version)
+- Multilayer Parallax Soulgems and Azura's Star Realm HD
+- Modular Armory - Practical Female Armors
+- Practical Female Iron Armor
+- Realistic Paper Parchment
+- Rudy HQ - Glowing Mushrooms
+- Scaffolding Over Sovngarde - Collision Overhaul
+- Serana Fixed Crossed Arms Animation
+- Simply Optimized Scripts AIO
+- Slightly Better Scrolls
+- Slighty Better Nordic Henges
+- Smoother Vanilla Staff Animations
+- SMP Wind
+- Stand still in RaceMenu
+- Vahloks Tomb Keyhole Retexture
+- Vanilla Hair Remake - SMP Version
+- Weapon Animation (Dawnbreaker)
+- Weapon Animation (Mace of Molag Bal)
+- Weapon Animation (Nightingale Bow)
+- Weapon Animation (Volendrung)
+- WeldingMans Enchanting Tables
+- YAR - Yuril's Additional Resources
+
+### Removed
+- Ahzidals Armor Set - Xtudo's Version
+- A Tragedy In Black - Soul Gems
+- DLC2 Audio Repeater Activator Script Tweak
+- DLC2 Pillar Builder Actor Script Tweak
+- Flesh FX
+- Serana Idle Fix
+- Snazzy Bookcases
+- Stations of Sorcerers
+- XPMSSE
+
+
+</Details>
+
 ## 3.2.1
 
 ### Info
