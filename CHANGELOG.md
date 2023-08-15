@@ -10,6 +10,7 @@
 ---
 
 # Changelog
+  - [3.3.1](#331)
   - [3.3.0](#330)
   - [3.2.1](#321)
   - [3.2.0](#320)
@@ -21,7 +22,27 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
-  
+
+## 3.3.1
+
+### Info
+
+**This update is save game compatible.**
+- Small update to remove a mod that was deleted from Nexus :(
+
+<Details>
+
+### Updated
+- Security Overhaul SKSE Add-ons
+- Simplicity of Snow
+
+### Added
+- XPMSSE
+
+### Removed
+- Basic XPMSSE Assets
+</Details>
+
 ## 3.3.0
 
 ### Info
