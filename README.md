@@ -4,8 +4,7 @@
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/89138">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
-  <a href="https://ko-fi.com/aljoxo"> Aljo's Ko-fi</a> |
-  <a href="https://ko-fi.com/beangas"> Bingus' Ko-fi</a> ]
+  <a href="https://ko-fi.com/beangas"> Ko-fi</a> ]
 </p>
 
 ---
@@ -40,11 +39,14 @@
 
 
 ---
+
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul for Skyrim Anniversary Edition that was created in June 2022 originally, before it was recently passed down to the creators of [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan). Ascensio is a labor of love from 3 Skyrim modders, who care a little bit too much about visuals, to provide an expansive graphical package that covers animations, offers custom recolors, and a plethora of handpicked assets for an enhanced Skyrim experience.
+Ascensio is a labor of love from 3 Skyrim modders, who care a little bit *too* much about visuals, to provide an expansive graphical package that covers animations, provides custom recolors for various mods to seamlessly tie everything together, and a plethora of handpicked assets for an enhanced Skyrim experience.
 
-There are minor gameplay changes within the list, which are nothing drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
+There are minor gameplay changes within the list, which are nothing too drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. 
+
+If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
