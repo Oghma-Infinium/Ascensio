@@ -20,6 +20,8 @@ Please note that if you do any of these tweaks, it is in your best interest to s
 ## ENB Profiles
 After launching MO2, you have a choice of playing the game with either [NAT ENB](https://www.nexusmods.com/skyrimspecialedition/mods/27141) or [Rudy ENB (Zangdar's Edit)](https://www.nexusmods.com/skyrimspecialedition/mods/39113) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB profile.
 
+![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Profiles%20Screenshot.png)
+
 ## Performance Mode
 
 This section will cover the `Performance Mode` section of the modlist. If you find yourself struggling with running the list, various mods such as performance LOD outputs, tweaked grass settings to reduce grass density, and edited ENB presets (for your chosen ENB profile) have been provided for you to switch on.
