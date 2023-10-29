@@ -28,11 +28,7 @@
   - [Antivirus Exceptions](#antivirus-exceptions)
 - [Playing the List](#playing-the-list)
   - [Starting the Game](#starting-the-game)
-    - [Optional Tweaks](#optional-tweaks)
 - [Updating the modlist](#updating-the-modlist)
-  - [Tweaking the Game Settings](#tweaking-the-game-settings)
-    - [Performance INI Options](#performance-ini-options)
-    - [BethINI](#bethini)
 - [Removing the Modlist](#removing-the-modlist)
 - [Contact](#contact)
 - [Credits and Thanks](#credits-and-thanks)
@@ -42,14 +38,14 @@
 
 ## Introduction
 
-Ascensio is a labor of love from 3 Skyrim modders, who care a little bit *too* much about visuals, to provide an expansive graphical package that covers animations, provides custom recolors for various mods to seamlessly tie everything together, and a plethora of handpicked assets for an enhanced Skyrim experience.
+Ascensio is a labor of love from 3 Skyrim modders, who care a little bit *too* much about visuals, to provide an expansive graphical package that covers animations, provides custom recolors for various mods to seamlessly tie everything together, and a plethora of handpicked assets for an enhanced Skyrim experience. **This modlist does not offer the full Creation Club Content suite.**
 
 There are minor gameplay changes within the list, which are nothing too drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. 
 
 If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+*This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 ---
 
@@ -88,7 +84,7 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
- 1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
+ 1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option.
 ---
@@ -227,22 +223,11 @@ If you use Windows Defender, it is advised that you set up an exception for the 
 
 ### Starting the Game
 
-Head over to the installation folder of `Ascensio`, locate an executable named `ModOrganizer.exe` and launch it.
+Open up the installation folder you set for Ascensio, locate an executable named `ModOrganizer.exe` and launch it.
 
+**Before you start playing the game, I suggest reading over the [Configuration Page](https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md) and checking the [FAQ](https://github.com/Oghma-Infinium/Ascensio/blob/main/FAQ.md) for any commonly asked questions for the list.**
 
-#### Optional Tweaks
-This section will cover the following optional tweaks that are included as a part of the modlist. Please note that if you do any of these tweaks, it is in your best interest to share this information when reporting any potential bugs that you encounter when playing the modlist.
-
-1. **ENB Profiles** - You have a choice of playing the game with either NAT ENB or Rudy ENB (Zagndar's Edit) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB profile.
-  
-2. **Performance Mode** - If you find the stock list hard to run on your setup, there is a `Performance Mode` separator at the bottom of the left pane in MO2 that contains performance tweaks for you to use. In order to use this, tick on the `Ascensio - Performance DynDOLOD Output` mod first and then disable the original DynDOLOD Output. The performance grass INI can be toggled on in addition with the performance DynDOLOD output as well. **DO NOT switch DynDOLOD Outputs mid-save**
-
-3. **Insects Begone** - At the bottom of the left pane in MO2, there is an `Insects Begone` separator you can expand. Here you can enable a custom Insects Begone patch that removes all insects from the game. Additionally, there is a mod that removes insect meshes such as insect trophies from Hearthfires, egg sacs, spiderwebs, etc that you may tick on for good measure.
-  
-4. **Ultrawide Patches** - At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
-  
-
-After you have picked your preferred ENB profile and gone through the optionals, click the run button next to the "Play Ascensio" Executable in MO2. You are now free to play, have fun!
+After you have picked your preferred ENB profile and gone through the [configuration page](https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md), click the run button next to the `Play Ascensio` executable in MO2. You are now free to play, have fun!
 
 ---
 
@@ -253,68 +238,6 @@ Before updating, please check the [changelog](https://github.com/Oghma-Infinium/
 Updating is like installing the list. Simply make sure your install/downloads paths are the same wihtin Wabbajack and tick on the `overwrite installation` button.
 
 **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
-
----
-
-### Tweaking the Game Settings
-
-#### Performance INI Options
-
-Here are recommended ini tweaks that you can make in order to potentially improve performance. These files can be found at `[Path to Modlist]\profiles\Ascensio - NAT ENB` or `[Path to Modlist]\profiles\Ascensio - CW Rudy ENB` depending on the profile you're using.
-
-**Skyrim.ini**  
->[Display]  
-fSAOIntensity=15  
-fSAOExpFactor=0.220  
-fSAORadius=800.0000  
-fSAOBias=0.5000  
-fSAOValueDiffFactor=0.3000
-
-Some edits can also be made to the  **ENBSeries.ini** found in the ENB mod you are using. These files can be found at `[Path to Modlist]\mods\NAT.ENB - ENB PRESET` or `[Path to Modlist]\mods\Rudy ENB CW - Zangdar's Edit`.
-
-**ENBSeries.ini**  
->[EFFECT]  
-EnableAmbientOcclusion=false  
-
->[SSAO_GAME]  
-AOAmount=1.5  
-AOAmountInterior=0.5  
-ColorfulMix=true
-
----
-
-#### BethINI
-
-Before running BethINI please make sure that your paths are correctly set within the `Setup` tab.
-
- - **Game**: `Skyrim Special Edition`
- - **Game Path**: `[Path to Modlist]\Stock Game`
-   > example: `F:\Ascensio\Stock Game`
- - **Mod Organizer**: `[Path to Modlist]\ModOrganizer.exe` 
-   > example: `F:\Ascensio\ModOrganizer.exe`
- - **INI Path**: `Mod Organizer > Ascensio - NAT ENB` or `Mod Organizer > Ascensio - CW Rudy ENB`
-
-To squeeze out some more FPS, tweak the following value in the `Detail` tab within BethINI.
-
-- `Shadow Resolution`: 1024
-- `Ambient Occlusion`: Either use this version within BethINI or the ENB version. The ENB version is more intensive. **Do not have both turned on.**
-- `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
-
----
-
-If you want to tweak your ENB further to improve performance, consider looking at Annakin's [ENB Tips Guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/ENB%20Tips.md). 
-
-To quote her, here is a short answer to improve performance with an ENB turned on:
-> #### How can I improve performance?
-> - Uncheck `EnableLens`.
-> - Uncheck `EnableBloom`.
-> - Uncheck `EnableDepthofField`.
-> - Uncheck `EnableTessellation` in `WATER`.
-> - Uncheck `ComplexFireLights` and `ComplexFireLights` OR
->   - Uncheck `EnableBigRange` in these two settings.
-> - Uncheck `Detailed Shadows`
-> - Uncheck `Complex Grass Collision`
-> - Uncheck `Complex Grass`
 
 ---
 

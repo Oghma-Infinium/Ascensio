@@ -3,10 +3,11 @@
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/89138">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
+  <a href="https://github.com/Oghma-Infinium/Ascensio/main/CONFIG.md">Configuration</a> |
+  <a href="https://github.com/Oghma-Infinium/Ascensio/main/FAQ.md">FAQ</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
   <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
-
 ---
 
 # Changelog
@@ -27,31 +28,48 @@
 ## 4.0.0
 **UNRELEASED**
 
-### Info
+### Key Info
 
 **This update is absolutely NOT save game compatible.**
-
-This update brings the list more towards the "complete visual overhaul" concept I talked about in the polls channel in the Waking Dreams server. Things like animation overhauls are now included to update the ugly vanilla animations, new purely-visual points of interests have been added around Skyrim, regional tree placements and curated NPC replacers are the majority of this update's big changes.
-
-**Notes:**
 
 - Incorporated *many* bug fix mods that the list didn't have previously
 - Reordered many assets and separators for ease of use for users
 - Chucked some mods that were already covered by other, bigger retexture mods
-- Switched our fire setup to be purely Embers XD instead of Inferno + Embers XD
 - Some of the trees in the list now have trunk swaying thanks to Ylikollikas :D
 - Performance TexGen is now included under the `Performance Mode` seperator for those who need it
 - Regenerated LODs and Synthesis plugins
 
+<Details>
+<summary>Patch Notes</summary>
 
-**Bugfixes:**
-
+### Bug Fixes
+ 
 - Remade all Ascensio patches from scratch and incorporated modgroups
-- Fixed the scuffed dragon skeleton meshes
+- Fixed scuffed dragon skeleton meshes
 - Fixed dirt cliff alphas using the wrong texture
 - Fixed the weird blending on the volcanic tundra dirtcliffs
+- Fixed Windhelm Bridge not having snow changes from Icy Windhelm
+- Reduced glossiness of some Windhelm meshes to fix abnormal shiny walls
+- Fixed inventory Soul Gems meshes
+- Corrected the Empty Soul Gem mesh not appearing in game
+- Disabled the `Target Lock with POV button` option in the TDM MCM for Gamepad
+   > Not really a bug, but figured I would mention it for the Gamepad users
+
+### Consistency Tweaks
+
+- Switched our fire setup to be purely Embers XD instead of Inferno + Embers XD
+- Patched 4thUnknown's Flame Atronach to use Embers XD Fire textures
+- Desaturated a lot of grass textures to match the general flora color
+- Desaturated the snow texture from Skyrim 3D Trees and Plants to match Hyperborean Snow
+- Changed Wood Chopping Blocks in the snowy areas to be covered in snow 
+  > Please submit a bug report if you find any wood chopping blocks in snowy areas that aren't covered in snow
+- Patched FYX Windhelm Graveyard for Icy Windhelm
+- Fixed the mismatching base and shell textures of `HangingRabbit01.nif`
+
+</Details>
 
 <Details>
+<summary>Mod Changes</summary>
 
 ### Updated
 
@@ -97,6 +115,12 @@ This update brings the list more towards the "complete visual overhaul" concept 
 - SMIM - Quality Addon
 - Icy Mesh Remaster
 - Misc Effects ENB Light
+- OSHA-Compliant Sovengarde Mesh Fixes
+- Spell Perk Item Distributor (SPID)
+- Whazzup I got a big hood - Mage hood Mesh Edit
+- Simple Snow Improvements - Skyrim
+- Rally's Mods - Shibui Skyrim Retexture
+- Orc Settlements Enhanced
 
 ### Added
 
@@ -114,6 +138,7 @@ This update brings the list more towards the "complete visual overhaul" concept 
 - Small Nordic Tent - Animated
 - Stalhrim Refrozen
 - Stalhrim Armors and Weapons Retexture SE
+- Outlandish Stalhrim Armors and Weapons Recolor
 - Argonian - Khajiit FabULook Eyes SSE
 - dTry Plugin Updates (Combat Music Fix Only)
 - ElSopa HD - Realistic Dark Elf Urns SE
@@ -137,7 +162,6 @@ This update brings the list more towards the "complete visual overhaul" concept 
 - Ethereal Immunity
 - Taller Posts for Farmhouse Walkways
 - Moons And Stars - Sky Overhaul SKSE
-- Prettier Roads by LGG
 - Natural Forts of Skyrim
 - Weapon Switch Animation Fix
 - Organic Player Animations
@@ -171,7 +195,7 @@ This update brings the list more towards the "complete visual overhaul" concept 
 - Jarls Clothes Replacer
 - Unique Animations Reworked
 - Verolevi's Animations
-    > I am not listing every single Verolevi animation mod, but know that I added the full suite
+    > I am not listing every single Verolevi animation mod, just know that I added the full suite
 - Improved Table Transition Animations
 - High Poly Dragonborn Ingredients Retextured
 - Remiros' Draw Knife HD
@@ -233,6 +257,8 @@ This update brings the list more towards the "complete visual overhaul" concept 
 - Skyrim Remastered - Glaciers and Ice - IMR Edition
 - Thieves Guild Armors Retexture SE
 - Mania Mushroom Retextured (Saints and Seducers CC)
+- powerofthree's Tweaks
+- Skyland - A Landscape Texture Overhaul
 
 ### Removed
 
@@ -317,9 +343,17 @@ This update brings the list more towards the "complete visual overhaul" concept 
     > I like the Weapon Animation series, but decided to forgoe them since I didn't grab the complete set due to mesh conflicts. Felt weird having certain daedric weapons have animations while others didn't
 - Unique Markarth Doors
 - Smoother Vanilla Staff Animations
-- Ancient Pottery
-    > Textures were super low res and blurry
 - Kanjs - Forgotten Vale Cave Worm
+- Fixed Nordic Metal Grate
+- Seriously Improved Sparks
+- More Lights for ENB - Blood Splatter and Inventory Centering Fix
+- Hevnoraak's Staff by Ave
+- Gadnor's Staff by Ave
+- Hevnoraak's Staff by Ave
+- Outlandish Stalhrim SSE
+- Weathered Bars and Counters Retexture
+- Deathbrand Weapons and Armor Replacer
+- 2K Dragon Skeleton
 
 </Details>
 
