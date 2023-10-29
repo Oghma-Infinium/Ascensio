@@ -3,8 +3,10 @@
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/89138">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md">Changelog</a> |
+  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md">Configuration</a> |
+  <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/FAQ.md">FAQ</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
-  <a href="https://ko-fi.com/beangas"> Ko-fi</a> ]
+  <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
 ---
