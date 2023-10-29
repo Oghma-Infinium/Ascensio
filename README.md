@@ -26,7 +26,7 @@
     - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
   - [Problems with installation](#problems-with-installation)
 - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
-  - [Game Folder](#game-folder)
+  - [Stock Game](#stock-game)
   - [Antivirus Exceptions](#antivirus-exceptions)
 - [Playing the List](#playing-the-list)
   - [Starting the Game](#starting-the-game)
@@ -86,9 +86,10 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
- 1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
+ 1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.Net Runtime v6 **Desktop** x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option.
+ 4. Remove/disable any 3rd party antivirus such as Webroot or Bitdefender. These programs **will absolutely** cause issues with your Ascensio installation due to how MO2's Virtual File Staging works.
 ---
 #### Pagefile and crash prevention
 
@@ -138,9 +139,9 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG versions, but due to the core file differences between the different versions, I am only able to support one game version.
 
  1. Right click on your Skyrim in Steam
- 2. Click *Properties*
- 3. Click *Language*
- 4. Set the Language to English.
+ 2. Click `Properties`
+ 3. Click the drop down box next to `Language`
+ 4. Set the language to English.
 
 ---
 
@@ -148,21 +149,27 @@ The English Steam version of Skyrim is the only supported version. I understand 
 
 #### Installing Wabbajack
 
-Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) from the Wabbajack Github. Extract the contents of the Wabbajack archive and place it in a folder such as `C:\Wabbajack` for example. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
+Once you have completed pre-installation, follow these steps to install Wabbajack:
+
+1. Create an empty folder named `Wabbajack` on the root of your drive, such as `C:\Wabbajack` for example. **DO NOT set the folder to Program Files, User protected folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**.
+   > The `Wabbajack` folder does not need to be on an SSD, but it makes installing faster. You can set this location to be an HDD for the sake of saving space.
+
+2. Download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and place the `Wabbajack.exe` file inside the Wabbajack folder you created in Step 1.
+
+3. Double-click the `Wabbajack.exe` file that is now inside your Wabbajack folder to set up the program.
 
 ---
 
 #### Downloading and Installing Ascensio
 
-Downloading and installing Ascensio can take a while depending on your internet connection and computer. To install Ascensio, complete the following steps.
+Downloading and installing Ascensio can take a while depending on your internet connection, PC specs, and if you have Nexus Premium. Without Premium, you will need to manually click the `Slow Download` button for each mod.
 
 1. Open Wabbajack and click `Browse Modlists`. Then pick the `Skyrim Special Edition` from the game filter drop-down box or use the search bar to type in the name of the list.
 2. Press the download arrow on the Ascensio UI card and wait for it to download.
-3. Set the installation folder to be a path such as `C:\Games\Ascensio`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
-> The download location does not need to be on a SSD, but it makes installing faster. The downloads location does not need to be on the same drive as the installation folder path either.
-1. Press the play button to begin.
-2. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again :D
-3. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow some of the pointers below or join the [discord server](https://discord.gg/WakingDreams) for support.
+3. Set the `Modlist Installation Location` to a folder such as `C:\Ascensio`. **DO NOT set the folder to Program Files, User protected folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**.
+    > The `Resource Download Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
+4. Press the play arrow to begin.
+5. If the installation is successful, then rejoice and move onto the [Post Installation](#post-installation-and-optional-setup) section. If the installation is unsuccessful, use the download links and tips below or join the [discord server](https://discord.gg/WakingDreams) for support.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
@@ -175,7 +182,7 @@ Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have 
 It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below:
 
 - Could not download **X**:
-	- Big files can fail to download due to connection issues. You can either run Wabbajack again or download the file manually. If you decide to manually download it, make sure to place the archive in the downloads folder that was specified in the [Downloading and Installing Ascensio](#downloading-and-installing-ascensio) section.
+  - Big files can fail to download due to connection issues or website issues. You can either run Wabbajack again or download the missing file manually. If you decide to manually download the file, make sure to place the file(s) inside the folder you set as the `Resource Download Location` in the [Downloading and Installing Ascensio](#downloading-and-installing-ascensio) section.
 
 - **X** is not a whitelisted download:
 
@@ -195,7 +202,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ## Post-Installation and Optional Setup
 
-### Game Folder
+### Stock Game
 
 Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Acsensio folder.
 
@@ -235,11 +242,17 @@ After you have picked your preferred ENB profile and gone through the [configura
 
 ## Updating the modlist
 
-Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md). You may need to start a new game after certain updates.
+Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md). You may need to start a new game after certain updates and I will state so in the changelog if needed.
 
-Updating is like installing the list. Simply make sure your install/downloads paths are the same wihtin Wabbajack and tick on the `overwrite installation` button.
+To update a modlist, follow these steps:
+1. Open Wabbajack again
+2. Download the newest Wabbajack file for your list from the `Browse Modlists` section
+3. Select the same `Modlist Installation Location` and `Resource Download Location` folders you chose previously
+4. Click the play button to begin installation
 
-**Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
+Backup **any** changes you have made to the modlist, such as INI tweaks and mod configs, since these will be lost upon reinstall. 
+
+**NOTE**: If you want to keep any mods you've added to your personal install, prefix those mods with **[NoDelete]** to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion.
 
 ---
 
@@ -254,7 +267,7 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 
 - _YOU_ for reading this :D
 - Curly for the original iteration of Ascensio!
-- The Waking Dreams server <3
+- The Waking Dreams Dev team <3
 - JTK for his visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team
