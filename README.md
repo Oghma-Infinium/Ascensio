@@ -17,7 +17,7 @@
   - [System Requirements](#system-requirements)
 - [Installation](#installation)
   - [Pre-Installation](#pre-installation)
-    - [Pagefile and crash prevention](#pagefile-and-crash-prevention)
+    - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
     - [Setting Shader Cache Size](#setting-shader-cache-size)
     - [Steam Setup](#steam-setup)
     - [Game Language](#game-language)
@@ -40,11 +40,11 @@
 
 ## Introduction
 
-Ascensio is a labor of love from 3 Skyrim modders, who care a little bit *too* much about visuals, to provide an expansive graphical package that covers animations, provides custom recolors for various mods to seamlessly tie everything together, and a plethora of handpicked assets for an enhanced Skyrim experience. **This modlist does not offer the full Creation Club Content suite.**
+Ascensio is a comprehensive visual overhaul modlist for Skyrim Special Edition (v1.6.640) that aims to upgrade just about every visual aspect of Skyrim, from the vanilla animations to the various points of interest around the game. This modlist features an array of meticulously handpicked assets, in-depth method patching for easy configuring, and custom edits and recolors for various mods to seamlessly tie everything together for an enhanced Skyrim experience. **This modlist does not include the full Creation Club Content suite.**
 
-There are minor gameplay changes within the list, which are nothing too drastically altering, but consist of QOL mods such as [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) to fix janky vanilla movement. Also included are unofficial patches, such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616), to fix exploits and bugs. 
+The list offers no major gameplay-changing mods, such as perk and combat overhauls, since the focus is on overhauling Skyrim's visuals primarily. However, there are some *minor* gameplay mods included, not meant to be drastically altering but to offer some QoL (Quality of Life) tweaks with [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) and [Verolevi's](https://www.nexusmods.com/skyrimspecialedition/users/3812151?tab=user+files) animations. Mods such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616) are also included to fix vanilla bugs and exploits.
 
-If you're curious about the specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
+If you're curious about the very specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
 
 *This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
@@ -53,7 +53,7 @@ If you're curious about the specific mods in the list, the full modlist can be v
 
 ### System Requirements
 
-> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS, dipping into the 40s in heavily forested areas. In the future this will be updated depending on feedback received.
+> Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS, dipping into the 40s in heavily forested areas. In the future, this will be updated depending on feedback received.
 
 
 **My Specs (1080p):**
@@ -86,12 +86,12 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
- 1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.Net Runtime v6 **Desktop** x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
- 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option.
- 4. Remove/disable any 3rd party antivirus such as Webroot or Bitdefender. These programs **will absolutely** cause issues with your Ascensio installation due to how MO2's Virtual File Staging works.
+ 1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.NET 7.0 Desktop Runtime x64](https://download.visualstudio.microsoft.com/download/pr/515cc796-e9f2-4b5c-be7f-b42f115a65a7/b0b146fcbf1d1c135807ff24b3d88093/windowsdesktop-runtime-7.0.13-win-x64.exe)
+ 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable)
+ 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option
+ 4. Remove or disable any 3rd party antivirus such as Webroot or Bitdefender. These programs **will absolutely** cause issues with your Ascensio installation due to how MO2's Virtual File Staging works
 ---
-#### Pagefile and crash prevention
+#### Pagefile and Crash Prevention
 
 Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
 
@@ -115,8 +115,8 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 ---
 
 #### Setting Shader Cache Size
- Additionally, if you have an NVIDIA GeForce Graphics Card, please do the following:
- This step is **optional** but can provide some extra stability.
+  This step is **optional** but can provide some extra stability. If you have an NVIDIA GPU, please do the following:
+
 
  1. Right-click on your desktop and select **NVIDIA Control Panel**
  2. Navigate and click on **Manage 3D settings**. It is the 2nd one to the top.
@@ -267,7 +267,7 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 
 - _YOU_ for reading this :D
 - Curly for the original iteration of Ascensio!
-- The Waking Dreams Dev team <3
+- The Waking Dreams dev team <3
 - JTK for his visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team

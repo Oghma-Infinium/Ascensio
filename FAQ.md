@@ -11,7 +11,7 @@
 
 ---
 
-# FAQ
+# Frequently Asked Questions
 
 ## **ENB FAQ**
 
@@ -21,21 +21,21 @@
 - Shift + F6 to toggle the Depth of Field.
 - F4 to toggle the ENB FPS Counter.
 
-**How to edit the 'letterbox' effect:**
+**How do I edit the letterbox?**
 
 - When in-game, press Shift + Enter to open ENB Menu.
 - In the middle panel, called `Shader Parameters` at the top, select `ENBEFFECTPOSTPASS.FX`.
 - Scroll down to the `Enable Letterbox` option and tick the box to toggle it.
 > Don't forget to click save configuration in the top left corner.
 
-**How to edit vignette:**
+**How do I edit vignette?**
 
 - When in-game, press Shift + Enter to open ENB Menu.
 - In the right tab called `Shader Parameters` at the top, select `ENBEFFECTPOSTPASS.FX`.
 - Scroll down to `Enable Vignette` and tick the box to toggle it.
 > Don't forget to click save configuration in the top left corner.
 
-**How to make the game brighter/darker:**
+**How do I make the game darker/brighter?**
 
 - When in-game, press Shift + Enter to open ENB Menu.
 - In the right tab, called `Shader Parameters` at the top, select `ENBEFFECT.FX`.

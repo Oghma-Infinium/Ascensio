@@ -11,7 +11,7 @@
 ---
 
 # Changelog
-  - [4.0.0](#331)
+  - [3.3.2](#332)
   - [3.3.1](#331)
   - [3.3.0](#330)
   - [3.2.1](#321)
@@ -25,46 +25,40 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
 
-## 4.0.0
-**UNRELEASED**
+## 3.3.2
 
-### Key Info
+### Info
 
-**This update is absolutely NOT save game compatible.**
-
-- Incorporated *many* bug fix mods that the list didn't have previously
-- Reordered many assets and separators for ease of use for users
-- Chucked some mods that were already covered by other, bigger retexture mods
-- Some of the trees in the list now have trunk swaying thanks to Ylikollikas :D
-- Performance TexGen is now included under the `Performance Mode` seperator for those who need it
-- Regenerated LODs and Synthesis plugins
+**This update is save game compatible!**
+- Little update to fix some bugs and visual oddities while the 4.0 update is still in development
+- Safe to ignore the missing plugin warning for Inferno and Tru Torches
 
 <Details>
 <summary>Patch Notes</summary>
 
 ### Bug Fixes
  
-- Remade all Ascensio patches from scratch and incorporated modgroups
-- Fixed scuffed dragon skeleton meshes
+- Fixed weapon displays displaying certain shields incorrectly
+- Fixed stretched dragon skeleton meshes
+- Fixed stretched 1st person meshes for Ancient Nord armor
 - Fixed dirt cliff alphas using the wrong texture
-- Fixed the weird blending on the volcanic tundra dirtcliffs
-- Fixed Windhelm Bridge not having snow changes from Icy Windhelm
-- Reduced glossiness of some Windhelm meshes to fix abnormal shiny walls
-- Fixed inventory Soul Gems meshes
-- Corrected the Empty Soul Gem mesh not appearing in game
-- Disabled the `Target Lock with POV button` option in the TDM MCM for Gamepad
-   > Not really a bug, but figured I would mention it for the Gamepad users
+- Fixed the Windhelm bridge not having snow changes from Icy Windhelm
+- Fixed zoomed-in inventory soul gem meshes and empty soul gems not appearing in-game
+- Fixed the mismatching base and shell textures of `HangingRabbit01.nif`
+- Fixed ice impact effects using the wrong texture
 
 ### Consistency Tweaks
 
 - Switched our fire setup to be purely Embers XD instead of Inferno + Embers XD
-- Patched 4thUnknown's Flame Atronach to use Embers XD Fire textures
-- Desaturated a lot of grass textures to match the general flora color
-- Desaturated the snow texture from Skyrim 3D Trees and Plants to match Hyperborean Snow
-- Changed Wood Chopping Blocks in the snowy areas to be covered in snow 
-  > Please submit a bug report if you find any wood chopping blocks in snowy areas that aren't covered in snow
-- Patched FYX Windhelm Graveyard for Icy Windhelm
-- Fixed the mismatching base and shell textures of `HangingRabbit01.nif`
+- Switched to Medieval Candlehorns and Scones for the candles and candelabras
+    > Candle horns are still handled by SD's Horn Candles while Rudy's candles are used in Nordic Ruins
+- Switched the Skyland version of Noble Furniture Enhanced - Quality Addon for the Rustic Furniture version
+- Desaturated some grass textures to match the general flora hue (also because they were unbearably bright)
+- Desaturated the snow texture from Skyrim 3D Trees and Plants, Wigfrid's Trees and Nature of the Wildlands to match Hyperborean Snow
+- Lowered glossiness of Blended Roads Redone and Witcher Horse Expansion meshes so they aren't overtly shiny
+- Patched 4thUnknown's Flame Atronach to use Embers XD fire textures
+- Patched Unisex Nord Armor for Modular Armory
+- Disabled the ice shader universally because its ugly ([I promise you won't miss it](https://cdn.discordapp.com/attachments/1157601496079269898/1169238816566034452/The_Elder_Scrolls_V_Skyrim_Special_Edition_Screenshot_2023.11.01_-_05.48.20.38.png))
 
 </Details>
 
@@ -73,287 +67,27 @@
 
 ### Updated
 
-- Simple Snow Improvements - Skyrim
-- Word Wall Transparency Fix for ENB
-- CrashLogger
-- JS Unique Utopia - Daggers
-- True Directional Movement
-- Icy Windhelm
-- Cathedral 3D Mountain Flowers - Base Object Swapper
-- LOD Model Library
-- Unofficial Skyrim Modder's Patch
-- Alchemy Station Variants
-- Animated Ice Floes
-- Market Stalls Animated - Diverse
-- Falchion as BloodScythe and Soulrender
-- Kala's Eyes - Improved
-- Kala's Elven Eyes - Improved
-- Kala's Vampire Eyes - Improved
-- Kala's Beast Eyes - Improved
-- Photo Mode
-- Open Animation Replacer
-- NPC Stuck in Bleedout Fix
-- Particle Patch for ENB
-- Security Overhaul SKSE - Some More Locks
-- Natural Waterfalls
-- Base Object Swapper
-- FYX - 3D Shack Kit Walls - BOS - LUX Patch
-- Scripts Carefully Reworked Optimized and Tactfully Enhanced (SCROTE) - Simply Optimized Scripts AIO
-- Skyland Bits and Bobs - A Clutter Overhaul
-- Navigator - Navemesh Fixes
-- Keyword Item Distributor
-- Animated Forge Water
-- Zero Bounty Hostility Fix
-- Bodyslide and Outfit Studio
-- Water for ENB
-- FYX - Windhelm Graveyard
-- XP32 Maximum Skeleton Special Extended
-- DynDOLOD DLL NG and Scripts
-- DynDOLOD Resources
 - Embers XD
-- Rally's All The Things
-- SMIM - Quality Addon
-- Icy Mesh Remaster
-- Misc Effects ENB Light
-- OSHA-Compliant Sovengarde Mesh Fixes
-- Spell Perk Item Distributor (SPID)
-- Whazzup I got a big hood - Mage hood Mesh Edit
-- Simple Snow Improvements - Skyrim
-- Rally's Mods - Shibui Skyrim Retexture
-- Orc Settlements Enhanced
 
 ### Added
 
-- FYX - 3D Honeyside Deck Floor
-- FYX - 3D Dock Ramp
-- FYX - 3D Whiterun Drawbridge Gate
-- FYX - 3D Solitude SighPost
-- FYX - RowBoat
-- FYX - Black-Briar and Riftweald Manors
-- FYX - Imperial Doors Collisions
-- FYX - 3D Whiterun Castle Bridge
-- Imperial Tents - Animated
-- Whiterun Defensive Stockade Walls
-- FYX - 3D Ragged Flagon Sign Chains
-- Small Nordic Tent - Animated
-- Stalhrim Refrozen
-- Stalhrim Armors and Weapons Retexture SE
-- Outlandish Stalhrim Armors and Weapons Recolor
-- Argonian - Khajiit FabULook Eyes SSE
-- dTry Plugin Updates (Combat Music Fix Only)
-- ElSopa HD - Realistic Dark Elf Urns SE
-- Torch Permanent Replacer
-- Dimmer Fake Glow
-- Disk Cache Enabler
-- Improved Solitude Arch
-- Instantly Skip Dialogue NG
-- Volkihar Hostility Fix
-- Silverblood Mercenary Fix
-- MEZF - Missing Vanilla Encounter Zones FIXED
-- Civil War Intro Scenes Run Only Once
-- Durak Teleport Fix
-- Nilheim BQ Fix
-- Shalidor's Maze Puzzle Sound Fix (Labyrinthian)
-- Alduin Bane Fix
-- Alduin's Wall - Sven Fix
-- Optimized USSEP Valdr Quest
-- Unaggressive Dragon Priests Fix
-- TrapSwingingWall Script Fix
-- Ethereal Immunity
-- Taller Posts for Farmhouse Walkways
-- Moons And Stars - Sky Overhaul SKSE
-- Natural Forts of Skyrim
-- Weapon Switch Animation Fix
-- Organic Player Animations
-- NPC Animation Remix
-- Immersive Folded Hands
-- High Poly Salmon Roe (But Not Too High)
-- Detailed Landscapes - Gleamblossoms and Caveworms in Falmer Hives
-- Female Equipment Scale Fix
-- Delphine Skyhaven Bugfix MQ203
-- Ultra HD Rags Retexture
-- Pelage - Bristleback Boar
-- 2K Warthog
-- Dream's Unique Dogs SE
-- Fluffworks - Dream's Unique Dogs Patch
+- Fluffy Apex Werewolf
+- Vanilla Table Replacer - Optional No Ropes for Common Tables
+- High Poly HD Rabbit by Pfuscher
+- Skyrim Objects SMIMed - Noble Furniture
+- Rustic Furniture
+- Unisex Ancient Nord Armor
 - Butterflies Land True
-- Butterflies Land True - Misc. Patches
-- Tel Mithryn Overhaul - High Poly and Improved Meshes
-- Kanjs - Mud and Giant Crabs
-- Torch Sprint Animation Fix
-- FYX - 3D Whiterun Guard Towers
-- Whiterun Objects SMIMed - Major Cities Mesh Overhaul
-- Parallaxified Major Cities Mesh Overhaul
-- Transparent and Refracting Frost Atronach
-- Praedy's Kagrumez Gem Retexture
-- Setting on Sulphur
-- Pfuscher's UV Fixes - Lux Patch
-- Soul Cairn Landscape Fixes
-- Unique Northern Vanilla Farmhouses - Non Snowy + Snowy Regions
-- Simpler Dragon Targeting - True Directional Movement
-- HD Dead Trees and Driftwoods
-- Jarls Clothes Replacer
-- Unique Animations Reworked
-- Verolevi's Animations
-    > I am not listing every single Verolevi animation mod, just know that I added the full suite
-- Improved Table Transition Animations
-- High Poly Dragonborn Ingredients Retextured
-- Remiros' Draw Knife HD
-- Iconic's Vampire Lord Retexture
-- Ruins Canopic Jars
-- Solitude Empty Landscape Fix
-- Northern Marsh Bridges
-- More Wooden Bridges
-- Forsworn Armors and Weapons Retexture SE
-- Guild Master's Armor First Person Texture Fix
-- Better Taffy Treats
-- MuSkeletonEditor
-- Nordic Jarl Longhouses
-- Conditional Tavern Cheering
-- Gesture Animation Remix
-- Lively Children Animations
-- Lively Cart Driver Animation Replacer
-- EXCUSE ME I'M SLIDING HERE (EMISH) - Dragon Crash Land Markers Fix
-- Capitals and Towns of Skyrim
-- Animation Motion Revolution
-- 1st Person Greatsword Idle Animation Fix
-- Floating Ash Pile Fix
-- Remastered Ash Piles Of Skyrim
-- Bloodskal Blade Replacer
-- Akaviri Katana - Blades Sword Replacer
-- Blubbos Shrub Replacer
-- Fish Plaque Fixes and Improvements
-- Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts
-- Lore Friendly Wooden Swords - Replacers
-- Kill Caps Lock NG
-- Modlist Update Checker
-- FYX - Jorrvaskr
-- Improved Windstad Manor Fish Dock and Round Posts
-- Pleasing Polygon Increase - Whiterun Farm Fences
-- Better Floors - Whiterun
-- Better Floors - Hearthfire Manors
-- WE05 Script Fix
-- Serana's Hood Fix
-- Arcane Blacksmith's Apron - Hood Fixes
-- Rock Traps Trigger Fixes
-- Dwemer Ballista Crash Fix
-- Hearthfires Houses Building Fix
-- Mount Anthor Dragon Fix
-- Source of Stalhrim Quest Fix
-- Proving Honor Companions Quest Progression Fix
-- College of Winterhold Quest Start Fixes
-- Ore Vein Texture Fix
-- Modern Toggle Walk-Run Fix SE
-- Auto Input Switch
-- Console Commands Extender
-- ConsoleUtilSSE
-- Script Effect Archetype Crash Fix
-- Quest Journal Limit Bug Fixer - Recover Disappeared Quests
-- Payload Interpreter
-- Recursion Monitor
-- Caveworm Plant Retexture
-- Detailed Landscapes - Morthal AIO
-- Detailed Landscapes - Eastmarch Volcanic Region AIO
-- Skyrim Remastered - Glaciers and Ice - IMR Edition
-- Thieves Guild Armors Retexture SE
-- Mania Mushroom Retextured (Saints and Seducers CC)
-- powerofthree's Tweaks
-- Skyland - A Landscape Texture Overhaul
 
 ### Removed
 
-- Obsidian Mountain Fogs Tweaked
-- Mists of Tamriel
-    > Removed mist and fog mods due to too much fog in certain areas like Lakeview Manor and decided I wasn't that much of a fan after running around in game with them
-- Rudy HQ - More Lights for ENB - Moths and Fireflys
-    > Included in Rally's All The Things and zzjay's Butterfly Improved
-- Less Ugly Tundragrass
-- Windcaller Tomb and Horn 2K
-- ENB Light 0.95 Release
-    > Was completely redundant after I reordered assets
-- HQ Alduin's Wall
-    > Included in Skyland Skyhaven Temple
-- Rally's Barrels
-- Rally's Display Cases
-- Rally's Handcarts
-- Rally's Market Stalls
-- Rally's Nord War Horns
-- Rally's Bees and More
-- Rally's Bliss Bug AE
-- Rally's Torchbugs
-- Rally's Bugs in Jars
-    > Rally mods are now all included in Rally's All The Things
-- Dragonborn Ingredients
-    > Swapped for Skurkbro's Version
-- Noble Skyrim Mod - Clutter
-    > Dislike these textures and finally found a reason to remove them after the Skyland Bits and Bobs update
-- Inferno - Fire Effects Redux
-- Frankly HD Thieves Guild Armors
-- Less Spiky Tundragrass
-    > Included in ICFur's Tundra Scrubs
-- Shingles - Alpha Patch
-- Kanjs - Atronachs
-    > Opted for full Rustic Daedra instead
-- TruTorches
-- Fixed Mesh Lighting
-    > Was completely redundant after I reordered assets
-- Another Reach Shrub
-- Reach Bush to Rosemary
-- Simple Activate SKSE
-- ElSopa HD - Bristleback
-- Resolutioned - Mudcrab and Chitin and Leg
-- Rustic Armor and Weapons SE
-- Minedoors Redone - Xtudo's Version
-    > Made my own recolor and mesh fix
-- Vampire Lord Demonic Retexture
-    > Swapped back to Iconic's Vampire Lord
-- Hot Lava - Heat Distortion - PraedyXVI - ENB Light
-    > Included in ENB Lava Particle Light Patch
-- Unofficial Material Fix - Major Cities Mesh Overhaul
-    > Redundant
-- Steaming Hot Soups and Stews
-    > Mesh is included in Hanaisse's Bowl and ENB Light Ingredients Patch
-- Better Juniper Texture
-    > I don't even know why this was in the list but it's completely unecessary due to the fact we use Mari's Junipers...
-- Rest for the Weary - Better Beds in Whiterun Temple
-- My Aching Back - Mattresses for Dwemer Beds
-    > Removed both of the bed mods due to bad UV stretching :(
-- Amon Textures HD AIO
-    > Swapped back to the smaller packages to save space
-- Icy Glaciers
-    > Swapped out glaciers due to dark glacier lods originating from this mod
 - Mathy's Meadery Brewer Retexture
-    > Once again have no idea why I added this since Rally's overwrites Meadery Barrels...
-- DPI Scaling Fix
-- FYX - Solitude Arch
-- Imperial Metal Replacer Texture
-- Yellow Shrub Remover
-- Subdivide and Smooth - Volcanic Terrain
-    > Cause the sharp edges on dirt cliffs in the Volcanic Tundra
-- Icy Windhelm - Throne Fix
-    > Not needed with latest Icy Windhelm update
-- Elwaps Speedtree
-    > Killed my performance :(
-- HDT-SMP Force Fields
-- SMP Wind
-- Weapon Animations (Dawnbreaker)
-- Weapon Animations (Volendrung)
-- Weapon Animations (Nightingale Bow)
-- Weapon Animations (Mace of Molag Bal)
-    > I like the Weapon Animation series, but decided to forgoe them since I didn't grab the complete set due to mesh conflicts. Felt weird having certain daedric weapons have animations while others didn't
-- Unique Markarth Doors
-- Smoother Vanilla Staff Animations
-- Kanjs - Forgotten Vale Cave Worm
-- Fixed Nordic Metal Grate
-- Seriously Improved Sparks
-- More Lights for ENB - Blood Splatter and Inventory Centering Fix
-- Hevnoraak's Staff by Ave
-- Gadnor's Staff by Ave
-- Hevnoraak's Staff by Ave
-- Outlandish Stalhrim SSE
-- Weathered Bars and Counters Retexture
-- Deathbrand Weapons and Armor Replacer
+- Skyrim 3D Furniture
+    > Had various problems such as some shields floating when displayed, missing furniture marker nodes causing animations to not play for certain furniture, and physics issues
 - 2K Dragon Skeleton
+- Werewolf Retexture - Warwolf
+- Tru Torches
+- Inferno - Fire Effects Redux
 
 </Details>
 
@@ -1082,7 +816,7 @@
  - Bloody vampire clutter should be fixed and not weirdly glowing anymore
  - Cleaned up some clipping that occurred with NotWL
  - Desaturated some grass and plants since some are horrifically vibrant
- - Edited QW's Grass Patch so that Folkvangr Rift Grass is used instead
+ - Edited QW's Grass Patch with my own edits for the Rift
  - Also removed Fall Forest Shrubs because I dislike all retextures for them
  - Fixed an issue with weapon trails that can occur with mods like VAE
  - Fixed dark-face bugs on some CC NPCs
