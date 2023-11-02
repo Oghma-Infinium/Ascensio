@@ -25,6 +25,83 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
 
+## 3.3.3
+
+### Info
+
+**This update is save game compatible**
+- A bug report left me with either removing Verolevi's animations or just incorporating the full suite like I've been meaning to for a while, so I went with the latter
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Bug Fixes
+ 
+- Fixed weird sprinting animations while one-handed weapons were unsheathed
+
+</Details>
+
+<Details>
+<summary>Mod Changes</summary>
+
+### Updated
+
+- Open Animation Replacer
+- True Directional Movement
+
+### Added
+
+- Animation Motion Revolution
+- Conditional Armor Type Animations
+- Unique Animations Reworked
+- Female Player Animations
+- Female Player Animations
+- Lively Children Animations
+- Lively Cart Driver Animation Replacer
+- Conditional Tavern Cheering
+- Gesture Animation Remix
+- NPC Animation Remix
+- Immersive Folded Hands
+- Leviathan Animations II - Female Idle Walk And Run (CATA Version)
+- Leviathan Animations II - Male Idle Walk And Run (CATA Version)
+- Leviathan Animations II - Sprint (CATA Version)
+- Vanargand Animations II - Female Idle Walk And Run (CATA Version)
+- Vanargand Animations II - Male Idle Walk And Run (CATA Version)
+- Vanargand Animations II - Sprint (CATA Version)
+- Goetia Animations - Female Idle Walk And Run (CATA Version)
+- Goetia Animations - Male Idle Walk And Run (CATA Version)
+- Goetia Animations - Sprint (CATA Version)
+- Leviathan Animations - Two-Handed High Stance
+- Leviathan Animations - Two-Handed Normal Attacks
+- Leviathan Animations - Two-Handed Power Attacks
+- Leviathan Animations II - Greatsword Non Combat Locomotion
+- Leviathan Animations II - Greatsword Low Stance
+- Leviathan Animations II - Greatsword Normal Attacks
+- Leviathan Animations II - Greatsword Power And Sprint Attacks
+- Leviathan Animations II - Greatsword Sneak Locomotion And Attacks
+- Vanargand Animations - Sneak Idle Walk and Run
+- Vanargand Animations - Sneak Thrust Attacks
+- Vanargand Animations - Sneak Strike Attacks
+- Vanargand Animations - Sneak Archery
+- Vanargand Animations - Sneak Crossbows
+- Vanargand Animations - Archery
+- Vanargand Animations - One Handed Mid Stance
+- Vanargand Animations - One Handed Normal Attacks
+- Vanargand Animations - One Handed Power Attacks
+- Vanargand Animations - Dual Wield Normal and Power Attacks
+- Vanargand Animations - Dual Wield Sneak Strikes
+- Vanargand Animations - Dual Wield Sneak Thrusts
+- Goetia Animations - Magic Spell Casting
+- Goetia Animations - Sneak Magic
+- Goetia Animations - Conditional Shouts
+- Goetia Animations - Enchanted Staves
+
+### Removed
+
+- Smoother Vanilla Staff Animations
+
+</Details>
+
 ## 3.3.2
 
 ### Info
