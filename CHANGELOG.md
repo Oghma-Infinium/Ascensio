@@ -30,7 +30,8 @@
 ### Info
 
 **This update is save game compatible**
-- A bug report left me with either removing Verolevi's animations or just incorporating the full suite like I've been meaning to for a while, so I went with the latter
+- Added Verolevi's locomotion animations and combat animations
+- Added some of CHIMGarden's animations
 
 <Details>
 <summary>Patch Notes</summary>
@@ -38,6 +39,7 @@
 ### Bug Fixes
  
 - Fixed weird sprinting animations while one-handed weapons were unsheathed
+- Fixed seams on interior wood posts in farmhouses
 
 </Details>
 
