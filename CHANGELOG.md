@@ -11,6 +11,7 @@
 ---
 
 # Changelog
+  - [3.3.4](#334)
   - [3.3.3](#333)
   - [3.3.2](#332)
   - [3.3.1](#331)
@@ -25,6 +26,13 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 3.3.4
+
+### Info
+
+**This update is save game compatible**
+- Fixed Animation Motion Revolution and High Poly Head being disabled in the NAT ENB profile (this wasn't intended, sorry about that)
 
 ## 3.3.3
 
