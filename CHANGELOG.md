@@ -27,6 +27,13 @@
   - [1.1.0](#110)
   - [1.0.0](#100)
 
+## 3.3.5
+
+### Info
+
+**This update is save game compatible**
+- Maintenance update to make the list installable again with the latest Skyrim update.
+
 ## 3.3.4
 
 ### Info
