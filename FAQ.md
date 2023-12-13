@@ -9,8 +9,6 @@
   <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
----
-
 # Frequently Asked Questions
 
 ## **ENB FAQ**

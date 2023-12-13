@@ -8,9 +8,9 @@
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
   <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
----
 
 # Changelog
+  - [3.4.0](#340)
   - [3.3.4](#334)
   - [3.3.3](#333)
   - [3.3.2](#332)
@@ -26,6 +26,85 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 3.4.0
+
+### Info
+
+**This update is NOT save game compatible**
+- Switched the game's runtime version to 1.5.97 to resolve freezing issues that occurred after the 3.3.5 update.
+> This issue seems to be caused by the downgrading process from 1.6.1130 to 1.6.640, so I felt the best way to handle this was to switch to 1.5.97.
+- Removed *all* CC content, including the free CC content. 
+> The free CC is a little bit of a headache to deal with at the moment due to the fact Steam and Bethesda's servers both ship different versions of them so I've opted to just remove CC content all together.
+- Downsized some textures in the list to hopefully help with VRAM stutters
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Bug Fixes
+ 
+- Hopefully fixed hard freezes that occured in different areas of the modlist, such as Dawnstar, Rorikstead, Broken Fang Cave, etc.
+
+</Details>
+
+<Details>
+<summary>Mod Changes</summary>
+
+### Reverted to 1.5.97
+- Unoffical Skyrim Special Edition Patch
+- Skyrim Script Extender
+- SSE Engine Fixes
+- SKSE Preloader
+- Address Library for SKSE Plugins
+- PapyrusUtil
+- po3's Papyrus Extender
+- po3's Tweaks
+- Console Plus Plus
+- JContainers SE
+- Base Object Swapper
+- Spell Perk Item Distributor
+- Keyword Item Distributor
+- Better Jumping
+- Enhanced Reanimation
+- Enhanced Invisibility
+- Simple Activate SKSE
+- To Your Face
+- Bug Fixes SSE
+- Scrambled Bugs
+- Don't Stay in The Water
+- ENB Light Inventory Fix (ELIF)
+- Equip Enchantment Fix
+- Face Discoloration Fix
+- Mfg Fix
+- Player Eyes Blink Fix
+- Actor Limit Fix
+- Dual Casting Fix
+- Camera Persistence Fixes
+- RaceMenu
+- Security Overhaul SKSE - Lock Variations
+- MCM Helper
+- More Informative Console
+- PhotoMode
+- SkyUI - Fixed Note Icon
+- ENB Lights For Effect Shaders
+- Splashes Of Skyrim
+- Splashes of Storms
+- ENB Helper SE
+- ENB Input Disabler
+- Faster HDT-SMP
+
+### Added
+- Disk Cache Enabler
+- Backported Extended ESL Support
+
+### Removed
+- Butterfly Improved by zzjay - Saints & Seducers Patch
+- SMP Wind
+- HDT-SMP Force Fields
+- SMP-NPC Crash Fix
+- Unoffical Creation Club Fishing Patch
+
+</Details>
 
 ## 3.3.5
 

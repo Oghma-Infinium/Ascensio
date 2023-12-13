@@ -35,14 +35,11 @@
 - [Contact](#contact)
 - [Credits and Thanks](#credits-and-thanks)
 
-
----
-
 ## Introduction
 
-Ascensio is a comprehensive visual overhaul modlist for Skyrim Special Edition (v1.6.640) that aims to upgrade just about every visual aspect of Skyrim, from the vanilla animations to the various points of interest around the game. This modlist features an array of meticulously handpicked assets, in-depth method patching for easy configuring, and custom edits and recolors for various mods to seamlessly tie everything together for an enhanced Skyrim experience. 
+Ascensio is a comprehensive visual overhaul modlist for Skyrim Special Edition (v1.5.97) that aims to upgrade just about every visual aspect of Skyrim, from the vanilla animations to the various points of interest around the game. This modlist features an array of meticulously handpicked assets, in-depth method patching for easy configuring, and custom edits and recolors for various mods to seamlessly tie everything together for an enhanced Skyrim experience.
 
-**This modlist does not include the full Creation Club Content suite.**
+**This modlist does not include any Creation Club Content.**
 
 The list offers no major gameplay-changing mods, such as perk and combat overhauls, since the focus is on overhauling Skyrim's visuals primarily. However, there are some *minor* gameplay mods included, not meant to be drastically altering but to offer some QoL (Quality of Life) tweaks with [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614) and [Verolevi's](https://www.nexusmods.com/skyrimspecialedition/users/3812151?tab=user+files) animations. Mods such as [USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [USMP](https://www.nexusmods.com/skyrimspecialedition/mods/49616) are also included to fix vanilla bugs and exploits.
 

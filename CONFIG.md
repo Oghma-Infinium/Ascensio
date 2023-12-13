@@ -9,8 +9,6 @@
   <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
----
-
 # Optional Configuration
 
 The following sections detail the **supported** configurations to the list. Any other modifications should be discussed in the `#🌟│ascensio-modifications` channel of the [Waking Dreams](https://discord.gg/wakingdreams) discord server.
@@ -67,17 +65,6 @@ Example for how the .ini line should look:
 - **Before:** `#Resolution=1920x1080`  
 - **After:** `Resolution=2560x1440`
 
-## Skyrim Upscaler
-
-While [Skyrim Upscaler](https://www.nexusmods.com/skyrimspecialedition/mods/80343) is an unsupported addition, I figured I'd mention it here due to the questions we receive about it on the Waking Dreams server. I've set up the `SSEDisplayTweaks.ini` inside the `SSE Display Tweaks` mod to automatically accommodate PureDark's Patreon DLSS mod in case users wish to use it. 
-
-If for whatever reason your Display Tweaks settings have been reset, below I have included the lines you must change in order to make sure your Upscaler works.
-
-In the `SSEDisplayTweaks.ini`, edit these lines 
-- Line 39: `Fullscreen = false`
-- Line 48: `Borderless = true`
-- Line 58: `BorderlessUpscale = false`
-
 ## In-Game MCM options
 
 Your MCMs will come pre-configured for you and there are not many to begin with due to the focus of this modlist, but below I have explained what each MCM is for and if you can safely edit them.
@@ -107,4 +94,3 @@ If you'd like to squeeze out some more FPS, tweak the following values in the `D
 - `Shadow Resolution`: 1024
 - `Ambient Occlusion`: Either use this version within BethINI or the ENB version. The ENB version is more intensive. **Do not have both turned on.**
 - `Remove Shadows`: I really don’t recommend turning this on, but if you must, then you can.
-
