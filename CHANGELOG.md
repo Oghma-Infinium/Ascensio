@@ -10,6 +10,7 @@
 </p>
 
 # Changelog
+  - [3.4.1](#341)
   - [3.4.0](#340)
   - [3.3.4](#334)
   - [3.3.3](#333)
@@ -26,6 +27,34 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 3.4.1
+
+### Info
+
+**This update is save game compatible**
+- This update was just to get the list installable again, as well as clear some unused downloads and remove some left-over CC mods that were in the modlist still
+- If continuing a save, it's safe to ignore the missing plugins about the Cleaned and Upscaled CC Content
+
+<Details>
+<summary>Mod Changes</summary>
+
+### Added
+- Clean Menu
+
+### Updated
+- ENB Series
+
+### Removed
+- Kart CSSET Latest (swapped with the pre-1.6 version)
+- CC Content Cleaned and Upscaled
+- Ancient Dwemer Metal - Anniversary Edition
+- Ancient Dwemer Metal - SMIM CC Core
+- Golden Saint Armory Revamped
+- High Poly Project - Xtudo's Fixes - CC Rare Curios Poisoned Apple Fix
+- Creation Club Asset Patch
+- Survival Stews - SMIM Meshes
+</Details>
 
 ## 3.4.0
 
