@@ -10,6 +10,7 @@
 </p>
 
 # Changelog
+  - [3.4.2](#342)
   - [3.4.1](#341)
   - [3.4.0](#340)
   - [3.3.4](#334)
@@ -27,6 +28,14 @@
   - [1.1.1](#111)
   - [1.1.0](#110)
   - [1.0.0](#100)
+
+## 3.4.2
+
+### Info
+
+**This update is save game compatible**
+- Maintenance update to make the modlist installable again. Make sure you have Skyrim updated on Steam to install the list.
+- If you already have the modlist installed, then you don't need to update! If you were having issues installing the modlist previously, then delete the Ascensio wabbajack file and download the new one from the Wabbajack UI
 
 ## 3.4.1
 
