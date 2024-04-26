@@ -15,7 +15,7 @@
 
 **Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
 
-**You must update Skyrim to the latest version (1.6.1170) on Steam to install this modlist.**
+**You must update Skyrim SE to the latest version (1.6.1170) on Steam to install this modlist.**
 
 **Ascensio does NOT require the paid AE DLC nor does it include ANY Creation Club content.**
 
@@ -97,15 +97,15 @@ Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a
 These steps are only required for installing the modlist for the first time. Many of these steps may be covered in other modlist installs, but for new users I suggest reading through here regardless.
 
  1. Install [Microsoft Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.NET 7.0 Desktop Runtime x64](https://download.visualstudio.microsoft.com/download/pr/515cc796-e9f2-4b5c-be7f-b42f115a65a7/b0b146fcbf1d1c135807ff24b3d88093/windowsdesktop-runtime-7.0.13-win-x64.exe)
- 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable)
- 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option
+ 2. Change Skyrim SE so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable)
+ 3. Right click on Skyrim SE and click on `Properties`, untick the `Enable Steam Overlay while in-game` option
  4. Remove or disable any 3rd party antivirus such as Webroot or Bitdefender. These programs **will absolutely** cause issues with your Ascensio installation due to how MO2's Virtual File Staging works
 
 ---
 
 #### Pagefile and Crash Prevention
 
-Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
+Larger Skyrim SE modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
 
  To set up your pagefile:
 
@@ -149,9 +149,9 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 
 #### Game Language
 
-The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG versions, but due to the core file differences between the different versions, I am only able to support one game version.
+The English Steam version of Skyrim SE is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG versions, but due to the core file differences between the different versions, I am only able to support one game version.
 
- 1. Right click on your Skyrim in Steam
+ 1. Right click on Skyrim SE in your Steam Library
  2. Click `Properties`
  3. Click the drop down box next to `Language`
  4. Set the language to English.
@@ -218,7 +218,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Stock Game
 
-Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Ascensio folder.
+Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim SE install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Ascensio folder.
 
 ---
 
