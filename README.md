@@ -11,29 +11,39 @@
 
 ---
 
-**Modlist Support: [Waking Dreams](https://discord.gg/WakingDreams)**
+# Attention
 
-- [Introduction](#introduction)
-  - [System Requirements](#system-requirements)
-- [Installation](#installation)
-  - [Pre-Installation](#pre-installation)
-    - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
-    - [Setting Shader Cache Size](#setting-shader-cache-size)
-    - [Steam Setup](#steam-setup)
-    - [Game Language](#game-language)
-  - [Wabbajack Installation](#wabbajack-installation)
-    - [Installing Wabbajack](#installing-wabbajack)
-    - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
-  - [Problems with installation](#problems-with-installation)
-- [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
-  - [Stock Game](#stock-game)
-  - [Antivirus Exceptions](#antivirus-exceptions)
-- [Playing the List](#playing-the-list)
-  - [Starting the Game](#starting-the-game)
-- [Updating the modlist](#updating-the-modlist)
-- [Removing the Modlist](#removing-the-modlist)
-- [Contact](#contact)
-- [Credits and Thanks](#credits-and-thanks)
+**Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
+
+**You must update Skyrim to the latest version (1.6.1170) on Steam to install this modlist.**
+
+**Ascensio does NOT require the paid AE DLC nor does it include ANY Creation Club content.**
+
+# Contents
+
+- [Attention](#attention)
+- [Contents](#contents)
+  - [Introduction](#introduction)
+    - [System Requirements](#system-requirements)
+  - [Installation](#installation)
+    - [Pre-Installation](#pre-installation)
+      - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
+      - [Setting Shader Cache Size](#setting-shader-cache-size)
+      - [Steam Setup](#steam-setup)
+      - [Game Language](#game-language)
+    - [Wabbajack Installation](#wabbajack-installation)
+      - [Installing Wabbajack](#installing-wabbajack)
+      - [Downloading and Installing Ascensio](#downloading-and-installing-ascensio)
+    - [Problems with installation](#problems-with-installation)
+  - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
+    - [Stock Game](#stock-game)
+    - [Antivirus Exceptions](#antivirus-exceptions)
+  - [Playing the Modlist](#playing-the-modlist)
+    - [Starting the Game](#starting-the-game)
+  - [Updating the Modlist](#updating-the-modlist)
+  - [Removing the Modlist](#removing-the-modlist)
+  - [Contact](#contact)
+  - [Credits and Thanks](#credits-and-thanks)
 
 ## Introduction
 
@@ -45,7 +55,6 @@ The list offers no major gameplay-changing mods, such as perk and combat overhau
 
 If you're curious about the very specific mods in the list, the full modlist can be viewed [here](https://loadorderlibrary.com/lists/ascensio-1).
 
-
 *This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 ---
@@ -54,27 +63,29 @@ If you're curious about the very specific mods in the list, the full modlist can
 
 > Please note these specs are the best idea of a baseline that I can provide at the current moment, based on my own experiences to maintain 50-60 FPS, dipping into the 40s in heavily forested areas. In the future, this will be updated depending on feedback received.
 
-
 **My Specs (1080p):**
+
 - i7-9700k
 - RTX 2070s
 - 32GB RAM (2x16)
 - 980 NVMe
 
 **Recommended Specs (1080p)**
+
 - R7 3700x / i5 10600k
 - 3060 Ti / 2070 / 6700 XT
 - 16GB RAM (2x8)
 - SATA SSD
 
-
 **Modlist Size:**
+
 - Downloads: ~110 GB
 - Install: ~137 GB (actual final size may vary)
 - **TOTAL:** ~247 GB
 
  > Wabbajack requires some extra space on your main OS drive for temporary and working files during the installation. This space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 ---
+
 ## Installation
 
 Installing Ascensio is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
@@ -89,12 +100,15 @@ These steps are only required for installing the modlist for the first time. Man
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable)
  3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game` option
  4. Remove or disable any 3rd party antivirus such as Webroot or Bitdefender. These programs **will absolutely** cause issues with your Ascensio installation due to how MO2's Virtual File Staging works
+
 ---
+
 #### Pagefile and Crash Prevention
 
 Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. This step is **NOT** optional. Regardless of how much RAM or VRAM you have, please do this step.
 
  To set up your pagefile:
+
  1. Press **Win Key + R**
  2. Type *sysdm.cpl ,3* and hit **ENTER**
  3. Navigate to *Performance* and click the box "Settings..."
@@ -114,8 +128,8 @@ Larger Skyrim modlists require a significant amount of memory, running out of me
 ---
 
 #### Setting Shader Cache Size
-  This step is **optional** but can provide some extra stability. If you have an NVIDIA GPU, please do the following:
 
+  This step is **optional** but can provide some extra stability. If you have an NVIDIA GPU, please do the following:
 
  1. Right-click on your desktop and select **NVIDIA Control Panel**
  2. Navigate and click on **Manage 3D settings**. It is the 2nd one to the top.
@@ -171,6 +185,7 @@ Downloading and installing Ascensio can take a while depending on your internet 
 5. If the installation is successful, then rejoice and move onto the [Post Installation](#post-installation-and-optional-setup) section. If the installation is unsuccessful, use the download links and tips below or join the [discord server](https://discord.gg/WakingDreams) for support.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
+
 - [High Poly Head](https://drive.google.com/file/d/15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq)
 - [Elwaps Speedtree](https://mega.nz/file/xUc0zRLY#NYwbmmHOZhpSF2hpV7hMRYejgZsL_MAIVv_DfjK9JRM)
 
@@ -189,10 +204,10 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Wabbajack could not find my game folder:
 
-	- Either buy the game or go back to the [Pre-Installation](#pre-installation) step.
+ 	- Either buy the game or go back to the [Pre-Installation](#pre-installation) step.
 
 - Antivirus reports a virus:
-	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in Windows Defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
+ 	- Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in Windows Defender](https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan).
 
 - Unable to download `Skyrim_Default.ini`:
   - This error means you failed to follow the readme. Go back to the [Game Language](#game-language) section and set your game's language to English.
@@ -203,7 +218,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Stock Game
 
-Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Acsensio folder.
+Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. Your Skyrim install for Ascensio should be self-contained and located in a folder named `Stock Game` within your Ascensio folder.
 
 ---
 
@@ -212,6 +227,7 @@ Ascensio uses a Wabbajack feature called Stock Game to keep your Skyrim installa
 Generally speaking, using Windows Defender is advised as it is a solid antivirus software that will have minimal interference with the game. Antivirus programs can be notorious for false flagging MO2's VFS as problematic, causing crashes or other problems. Antivirus programs like BitDefender, Norton, and Webroot are especially aggressive, and you will very likely need to fully remove them from your PC in order to actually launch the game through MO2.
 
 If you use Windows Defender, it is advised that you set up an exception for the modlist. To do this, follow these steps:
+
  1. Press the Windows Key.
  2. Type "Windows Defender" in the search bar and select "Windows Security".
  3. Click on "Virus & threat protection" in the left pane.
@@ -227,7 +243,7 @@ If you use Windows Defender, it is advised that you set up an exception for the 
 
 ---
 
-## Playing the List
+## Playing the Modlist
 
 ### Starting the Game
 
@@ -239,23 +255,25 @@ After you have picked your preferred ENB profile and gone through the [configura
 
 ---
 
-## Updating the modlist
+## Updating the Modlist
 
 Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Ascensio/blob/main/CHANGELOG.md). You may need to start a new game after certain updates and I will state so in the changelog if needed.
 
 To update a modlist, follow these steps:
+
 1. Open Wabbajack again
 2. Download the newest Wabbajack file for your list from the `Browse Modlists` section
 3. Select the same `Modlist Installation Location` and `Resource Download Location` folders you chose previously
 4. Click the play button to begin installation
 
-Backup **any** changes you have made to the modlist, such as INI tweaks and mod configs, since these will be lost upon reinstall. 
+Backup **any** changes you have made to the modlist, such as INI tweaks and mod configs, since these will be lost upon reinstall.
 
 **NOTE**: If you want to keep any mods you've added to your personal install, prefix those mods with **[NoDelete]** to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion.
 
 ---
 
 ## Removing the Modlist
+
 Simply delete the Ascensio folder. Congratulations, you have uninstalled Ascensio.
 
 ## Contact
@@ -264,9 +282,9 @@ If you have an issue with the list, please feel free to join the [Waking Dreams]
 
 ## Credits and Thanks
 
-- _YOU_ for reading this :D
+- *YOU* for reading this :D
 - Curly for the original iteration of Ascensio!
-- The Waking Dreams dev team <3
+- The Waking Dreams Dev team <3
 - JTK for his visual academy that jumpstarted this list
 - Bethesda Game Studios
 - ElminsterAU and the xEdit team
