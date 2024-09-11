@@ -1,3 +1,6 @@
+<!-- omit in toc -->
+# ⚠ ! This modlist has been discontinued ! ⚠
+
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Ascensio%20Header.png)
 
 <p align="center">
@@ -6,23 +9,14 @@
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/FAQ.md">FAQ</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
-  <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
----
 
-# Attention
+# ⚠ ! This modlist has been discontinued ! ⚠
 
-**Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
-
-**You must update Skyrim SE to the latest version (1.6.1170) on Steam to install this modlist.**
-
-**Ascensio does NOT require the paid AE DLC nor does it include ANY Creation Club content.**
-
-# Contents
-
-- [Attention](#attention)
-- [Contents](#contents)
+## Contents
+- [⚠ ! This modlist has been discontinued ! ⚠](#--this-modlist-has-been-discontinued---1)
+  - [Contents](#contents)
   - [Introduction](#introduction)
     - [System Requirements](#system-requirements)
   - [Installation](#installation)
@@ -42,7 +36,6 @@
     - [Starting the Game](#starting-the-game)
   - [Updating the Modlist](#updating-the-modlist)
   - [Removing the Modlist](#removing-the-modlist)
-  - [Contact](#contact)
   - [Credits and Thanks](#credits-and-thanks)
 
 ## Introduction
@@ -182,7 +175,7 @@ Downloading and installing Ascensio can take a while depending on your internet 
 3. Set the `Modlist Installation Location` to a folder such as `C:\Ascensio`. **DO NOT set the folder to Program Files, User protected folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**.
     > The `Resource Download Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
 4. Press the play arrow to begin.
-5. If the installation is successful, then rejoice and move onto the [Post Installation](#post-installation-and-optional-setup) section. If the installation is unsuccessful, use the download links and tips below or join the [discord server](https://discord.gg/WakingDreams) for support.
+5. If the installation is successful, then rejoice and move onto the [Post Installation](#post-installation-and-optional-setup) section. If the installation is unsuccessful, use the download links and tips below.
 
 Sometimes Google Drive and MEGA will experience bandwidth caps, so below I have included the links to the files that require them.
 
@@ -197,10 +190,6 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Could not download **X**:
   - Big files can fail to download due to connection issues or website issues. You can either run Wabbajack again or download the missing file manually. If you decide to manually download the file, make sure to place the file(s) inside the folder you set as the `Resource Download Location` in the [Downloading and Installing Ascensio](#downloading-and-installing-ascensio) section.
-
-- **X** is not a whitelisted download:
-
-	 - This may happen when I update the modlist. Please check if there is a new update or wait until you see a release ping on the discord server!
 
 - Wabbajack could not find my game folder:
 
@@ -276,17 +265,15 @@ Backup **any** changes you have made to the modlist, such as INI tweaks and mod 
 
 Simply delete the Ascensio folder. Congratulations, you have uninstalled Ascensio.
 
-## Contact
-
-If you have an issue with the list, please feel free to join the [Waking Dreams](https://discord.gg/WakingDreams) discord server for support!
-
 ## Credits and Thanks
 
-- *YOU* for reading this :D
-- Curly for the original iteration of Ascensio!
-- The Waking Dreams Dev team <3
+- YOU for playing this modlist!
+- aljo for being on this modding journey with me :]
+- The Waking Dreams Dev Team for their feedback and help <3
+- Curly for very first iteration of Ascensio :)
 - JTK for his visual academy that jumpstarted this list
-- Bethesda Game Studios
-- ElminsterAU and the xEdit team
-- Noggog for Mutagen and Synthesis
 - Halgari and the WJ Team for this amazing platform
+- LivelyDismay and The Animonculory for their modding guides
+- ElminsterAU and the xEdit team for SSEEdit
+- Noggog for Mutagen and Synthesis
+- Bethesda Game Studios for Skyrim and the Creation Kit

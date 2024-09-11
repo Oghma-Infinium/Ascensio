@@ -1,3 +1,5 @@
+# ⚠ ! This modlist has been discontinued ! ⚠
+
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Ascensio%20Header.png)
 
 <p align="center">
@@ -6,12 +8,13 @@
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/FAQ.md">FAQ</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
-  <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
-# Frequently Asked Questions
+# ⚠ ! This modlist has been discontinued ! ⚠
 
-## **ENB FAQ**
+## Frequently Asked Questions
+
+### **ENB FAQ**
 
 **Common Shortcuts:**
 - Shift + Enter to open ENB GUI.

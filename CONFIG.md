@@ -1,3 +1,5 @@
+# ⚠ ! This modlist has been discontinued ! ⚠
+
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Ascensio%20Header.png)
 
 <p align="center">
@@ -6,21 +8,21 @@
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Ascensio/blob/main/FAQ.md">FAQ</a> |
   <a href="https://loadorderlibrary.com/lists/ascensio-1">Load Order</a> |
-  <a href="https://discord.gg/WakingDreams"> Modlist Discord</a> ]
 </p>
 
-# Optional Configuration
+# ⚠ ! This modlist has been discontinued ! ⚠
 
-The following sections detail the **supported** configurations to the list. Any other modifications should be discussed in the `#🌟│ascensio-modifications` channel of the [Waking Dreams](https://discord.gg/wakingdreams) discord server.
+## Optional Configurations
 
-Please note that if you do any of these optional configurations, it is in your best interest to share this information when reporting any potential bugs that you encounter when playing the modlist.
+### ENB Profiles
 
-## ENB Profiles
 After launching MO2, you have a choice of playing the game with either [NAT ENB](https://www.nexusmods.com/skyrimspecialedition/mods/27141) or [Rudy ENB (Zangdar's Edit)](https://www.nexusmods.com/skyrimspecialedition/mods/39113) for Cathedral Weathers. Use the `Profiles` drop down box at the top of MO2 to pick your preferred ENB profile.
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Ascensio/main/Media/Profiles%20Screenshot.png)
 
-## Performance Mode
+---
+
+### Performance Mode
 
 This section will cover the `Performance Mode` section of the modlist. If you find yourself struggling with running the list, various mods such as performance LOD outputs, tweaked grass settings to reduce grass density, and edited ENB presets (for your chosen ENB profile) have been provided for you to switch on.
   >**DO NOT** switch on the Performance LOD Outputs *mid-save*. I cannot guarantee that you will face zero visual bugs from doing so.
@@ -31,7 +33,9 @@ In order to use these Performance tweaks, activate the mods you wish to use unde
  - `NAT.ENB - ENB PRESET Performance Edits`
  - `Performance Grass INI`
 
-## Insects Begone
+---
+
+### Insects Begone
 
 For those with arachnophobia and/or entomophobia, the `Insects Begone` separator contains a couple of mods to remove most of the spider and insect adjacent meshes and enemies from the list. Some aspects of the list's vision are compromised to support these tweaks.
 
@@ -39,7 +43,9 @@ Tick these mods on if you wish to utilize them:
 - `Ascensio - Insects Begone`
 - `Insects Begone - Modularly Removing Spiders and Chaurus`
 
-## Ultrawide Patches
+---
+
+### Ultrawide Patches
 
 At the bottom of the left pane in MO2, there is an `Ultrawide Patches` separator you can expand. Here you can enable the respective widescreen fixes for your monitor if needed.
   > I do not own an ultrawide monitor, so no testing has been done with these unfortunately. Please let me know if any of these patches need to be changed in some way to accommodate ultrawide users.
@@ -50,7 +56,9 @@ These mods should consist of:
 - `Dear Diary Dark Mode (Ultrawide Fix for 21x9)`
 - `Dear Diary Dark Mode (Ultrawide Fix for 32x9)`
 
-## Changing Resolution
+---
+
+### Changing Resolution
 
 By default, Wabbajack will set the resolution in your `SkyrimPrefs.ini` to match the native resolution of your monitor. However, Skyrim scales very poorly at resolutions above 1080p (`1920x1080`) and depending on your hardware, it might be difficult to achieve consistent FPS on higher resolutions.
 
@@ -65,7 +73,9 @@ Example for how the .ini line should look:
 - **Before:** `#Resolution=1920x1080`  
 - **After:** `Resolution=2560x1440`
 
-## In-Game MCM options
+---
+
+### In-Game MCM options
 
 Your MCMs will come pre-configured for you and there are not many to begin with due to the focus of this modlist, but below I have explained what each MCM is for and if you can safely edit them.
 
@@ -78,7 +88,9 @@ Your MCMs will come pre-configured for you and there are not many to begin with 
  - **True Directional Movement**: This MCM was left with the default settings mostly, but you can change TDM settings here
  - **Ultimate Immersion Toggle**: Handles what key hides the UI. This is set to X by default.
 
-## BethINI
+---
+
+### BethINI
 
 If you wish to rerun BethINI, please make sure that you close MO2 beforehand and that your paths are correctly set within the `Setup` tab of the program, like so:
 
